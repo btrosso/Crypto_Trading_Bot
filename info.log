@@ -1,0 +1,1616 @@
+2022-01-08 20:48:21,091 INFO :: This message just shows basic information.
+2022-01-08 20:48:21,091 WARNING :: This message is about something you should pay attention to.
+2022-01-08 20:48:21,091 ERROR :: This messgae helps to debug an error that occurred in your program.
+2022-01-08 20:49:17,717 DEBUG :: This message is important only when debugging the program.
+2022-01-08 20:49:17,717 INFO :: This message just shows basic information.
+2022-01-08 20:49:17,717 WARNING :: This message is about something you should pay attention to.
+2022-01-08 20:49:17,717 ERROR :: This messgae helps to debug an error that occurred in your program.
+2022-01-08 20:58:51,704 DEBUG :: This message is important only when debugging the program.
+2022-01-08 20:58:51,704 INFO :: This message just shows basic information.
+2022-01-08 20:58:51,704 WARNING :: This message is about something you should pay attention to.
+2022-01-08 20:58:51,704 ERROR :: This messgae helps to debug an error that occurred in your program.
+2022-01-08 20:58:51,705 INFO :: Hello from the Binance connector.
+2022-01-09 14:15:50,222 DEBUG :: Starting new HTTPS connection (1): fapi.binance.com:443
+2022-01-09 14:15:50,513 DEBUG :: https://fapi.binance.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-09 14:16:31,077 DEBUG :: Starting new HTTPS connection (1): fapi.binance.com:443
+2022-01-09 14:16:31,784 DEBUG :: https://fapi.binance.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-09 14:21:36,993 DEBUG :: Starting new HTTPS connection (1): fapi.binance.com:443
+2022-01-09 14:21:37,284 DEBUG :: https://fapi.binance.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-09 14:59:43,477 DEBUG :: Starting new HTTPS connection (1): fapi.binance.com:443
+2022-01-09 14:59:44,228 DEBUG :: https://fapi.binance.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-09 15:02:17,807 DEBUG :: Starting new HTTPS connection (1): fapi.binance.com:443
+2022-01-09 15:02:18,083 DEBUG :: https://fapi.binance.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-09 15:03:47,760 DEBUG :: Starting new HTTPS connection (1): fapi.binance.com:443
+2022-01-09 15:03:48,074 DEBUG :: https://fapi.binance.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-10 14:11:37,658 INFO :: Binance Futures Client Successfully Initialized
+2022-01-10 14:13:07,771 INFO :: Binance Futures Client Successfully Initialized
+2022-01-10 14:13:07,790 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-10 14:13:08,593 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-10 14:13:08,633 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-10 14:13:08,910 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/ticker/bookTicker?symbol=BTCUSDT HTTP/1.1" 200 None
+2022-01-10 14:13:08,914 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-10 14:13:09,258 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/klines?symbol=BTCUSDT&interval=1h&limit=1000 HTTP/1.1" 200 None
+2022-01-12 12:26:32,642 INFO :: Binance Futures Client Successfully Initialized
+2022-01-12 12:26:54,842 INFO :: Binance Futures Client Successfully Initialized
+2022-01-12 12:26:54,852 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-12 12:26:55,564 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642012014843&signature=cada4052921aec6a0344cdef1496a013803e34223c4b78725f5484f677d6ebb4 HTTP/1.1" 401 46
+2022-01-12 12:26:55,570 ERROR :: Error while making GET request to /fapi/v2/account: {'code': -2014, 'msg': 'API-key format invalid.'} (error code 401)
+2022-01-12 12:40:32,173 INFO :: Binance Futures Client Successfully Initialized
+2022-01-12 12:40:32,176 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-12 12:40:32,963 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1642012832174&signature=4a11009beb34589411d0e1f37c018c21cb408af38e5e30a837f36c05c7daf2f4 HTTP/1.1" 401 46
+2022-01-12 12:40:32,971 ERROR :: Error while making GET request to /fapi/v1/account: {'code': -2014, 'msg': 'API-key format invalid.'} (error code 401)
+2022-01-12 12:43:41,983 INFO :: Binance Futures Client Successfully Initialized
+2022-01-12 12:43:41,987 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-12 12:43:42,826 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642013021984&signature=a9b91aa2e76422f9a9230d41653da37eb4481b4cbe70a64980a48c8533b06fdb HTTP/1.1" 200 None
+2022-01-12 14:34:42,872 INFO :: Binance Futures Client Successfully Initialized
+2022-01-12 14:34:42,877 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-12 14:34:43,517 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642019682872&signature=5638aae8d04f71a90f313f418ad5526b9b41a35e76851635fd6b722de0c2d697 HTTP/1.1" 200 None
+2022-01-12 14:34:43,536 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-12 14:34:44,112 DEBUG :: https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=BTCUSDT&side=BUY&quantity=0.01&order_type=LIMIT&price=10000&timeInForce=GTC&timestamp=1642019683528&signature=92b8e91ad6c5f90c267c14a517717e264213a4f200e7c1185cd6cc0d38194b5a HTTP/1.1" 400 93
+2022-01-12 14:34:44,119 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -1102, 'msg': "Mandatory parameter 'type' was not sent, was empty/null, or malformed."} (error code 400)
+2022-01-12 14:36:53,941 INFO :: Binance Futures Client Successfully Initialized
+2022-01-12 14:36:53,945 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-12 14:36:55,092 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642019813941&signature=5f6c5e723dd9817d5b777b16728d741a37ce2f56ffd9c7c7664b7fc5f3df9ee9 HTTP/1.1" 200 None
+2022-01-12 14:36:55,101 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-12 14:36:55,319 DEBUG :: https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=BTCUSDT&side=BUY&quantity=0.01&type=LIMIT&price=10000&timeInForce=GTC&timestamp=1642019815100&signature=f44e8c1b69223002bcdc102d50bb6a0b50490a393aad142c949a0498c67420c6 HTTP/1.1" 200 None
+2022-01-12 14:38:18,303 INFO :: Binance Futures Client Successfully Initialized
+2022-01-12 14:38:18,309 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-12 14:38:19,866 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642019898303&signature=e75769cc0c7eb1e35dcaa5cc417c0aec0e583a30ec8dfc6c3117458438cfc228 HTTP/1.1" 200 None
+2022-01-12 14:38:19,874 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-12 14:38:20,644 DEBUG :: https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=BTCUSDT&side=BUY&quantity=0.01&type=LIMIT&price=10000&timeInForce=GTC&timestamp=1642019899871&signature=1da25dce8257af237579e02079bc59229d41fbab8ca600dec68cd1b4b243ba7b HTTP/1.1" 200 None
+2022-01-12 14:38:20,649 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-12 14:38:20,939 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/order?timestamp=1642019900647&symbol=BTCUSDT&orderId=2965523893&signature=000ef6b0fa852ea7a75ffc15ce8e84bfb67be41aa16b4fcc0e8a665b0e6e5f6a HTTP/1.1" 200 None
+2022-01-12 14:47:31,123 INFO :: Binance Futures Client Successfully Initialized
+2022-01-12 14:47:31,126 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-12 14:47:33,477 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642020451123&signature=4a4571d31557e8e71a75892a6ef57697b9b65e9bdd69a6d20fec5b6cedefb792 HTTP/1.1" 200 None
+2022-01-12 14:47:33,481 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-12 14:47:34,457 DEBUG :: https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=BTCUSDT&side=BUY&quantity=0.01&type=LIMIT&price=10000&timeInForce=GTC&timestamp=1642020453480&signature=acc1fba0ec1e72a76f110d6baa8be4c22ce152d9c3dcfc8bffb1cf402ee6f902 HTTP/1.1" 200 None
+2022-01-12 14:47:34,460 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-12 14:47:35,229 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/order?timestamp=1642020454458&symbol=BTCUSDT&orderId=2965523893&signature=ab93510fc1dfafb62ddf1edbc108ebdee4866400cf285e33fa75a1c7df310c18 HTTP/1.1" 200 None
+2022-01-12 14:47:35,233 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-12 14:47:35,520 DEBUG :: https://testnet.binancefuture.com:443 "DELETE /fapi/v1/order?orderId=2965523893&symbol=BTCUSDT&timestamp=1642020455231&signature=38168746f51456fa3bb5ee685457c56feef2573160f8ed7bcc47855d49b61355 HTTP/1.1" 200 None
+2022-01-12 16:32:43,245 INFO :: Binance Futures Client Successfully Initialized
+2022-01-12 16:32:44,007 ERROR :: error from callback <bound method BinanceFuturesClient.on_open of <connectors.binance_futures.BinanceFuturesClient object at 0x0000016F4F005308>>: on_open() takes 1 positional argument but 2 were given
+2022-01-12 16:35:45,185 INFO :: Binance Futures Client Successfully Initialized
+2022-01-12 16:35:45,936 INFO :: Binance connection opened
+2022-01-13 13:08:45,295 INFO :: Binance Futures Client Successfully Initialized
+2022-01-13 13:08:46,462 INFO :: Binance connection successfully opened
+2022-01-13 13:08:46,665 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x000001B0FE707208>>: on_message() takes 2 positional arguments but 3 were given
+2022-01-13 13:08:48,055 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x000001B0FE707208>>: on_message() takes 2 positional arguments but 3 were given
+2022-01-13 13:08:48,245 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x000001B0FE707208>>: on_message() takes 2 positional arguments but 3 were given
+2022-01-13 13:08:48,248 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x000001B0FE707208>>: on_message() takes 2 positional arguments but 3 were given
+2022-01-13 13:08:49,075 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x000001B0FE707208>>: on_message() takes 2 positional arguments but 3 were given
+2022-01-13 13:36:28,076 INFO :: Binance Futures Client Successfully Initialized
+2022-01-13 13:36:29,203 ERROR :: error from callback <bound method BinanceFuturesClient.on_open of <connectors.binance_futures.BinanceFuturesClient object at 0x00000187C02F1E08>>: on_open() takes 1 positional argument but 2 were given
+2022-01-13 13:36:48,559 INFO :: Binance Futures Client Successfully Initialized
+2022-01-13 13:36:49,405 INFO :: Binance connection successfully opened
+2022-01-13 13:36:49,576 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x000002C24A6D5A88>>: on_message() takes 2 positional arguments but 3 were given
+2022-01-13 13:36:50,180 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x000002C24A6D5A88>>: on_message() takes 2 positional arguments but 3 were given
+2022-01-13 13:36:50,774 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x000002C24A6D5A88>>: on_message() takes 2 positional arguments but 3 were given
+2022-01-13 13:36:50,776 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x000002C24A6D5A88>>: on_message() takes 2 positional arguments but 3 were given
+2022-01-13 13:36:52,513 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x000002C24A6D5A88>>: on_message() takes 2 positional arguments but 3 were given
+2022-01-13 13:36:53,125 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x000002C24A6D5A88>>: on_message() takes 2 positional arguments but 3 were given
+2022-01-13 13:36:55,676 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x000002C24A6D5A88>>: on_message() takes 2 positional arguments but 3 were given
+2022-01-13 13:36:56,353 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x000002C24A6D5A88>>: on_message() takes 2 positional arguments but 3 were given
+2022-01-13 13:36:57,526 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x000002C24A6D5A88>>: on_message() takes 2 positional arguments but 3 were given
+2022-01-13 13:36:58,503 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x000002C24A6D5A88>>: on_message() takes 2 positional arguments but 3 were given
+2022-01-13 13:37:01,524 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x000002C24A6D5A88>>: on_message() takes 2 positional arguments but 3 were given
+2022-01-13 13:37:01,849 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x000002C24A6D5A88>>: on_message() takes 2 positional arguments but 3 were given
+2022-01-13 13:37:01,850 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x000002C24A6D5A88>>: on_message() takes 2 positional arguments but 3 were given
+2022-01-13 13:37:02,041 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x000002C24A6D5A88>>: on_message() takes 2 positional arguments but 3 were given
+2022-01-13 13:37:02,042 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x000002C24A6D5A88>>: on_message() takes 2 positional arguments but 3 were given
+2022-01-13 13:37:04,364 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x000002C24A6D5A88>>: on_message() takes 2 positional arguments but 3 were given
+2022-01-13 13:38:37,961 INFO :: Binance Futures Client Successfully Initialized
+2022-01-13 13:38:38,707 INFO :: Binance connection successfully opened
+2022-01-13 13:38:38,873 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x000001D815F61E48>>: on_message() takes 2 positional arguments but 3 were given
+2022-01-13 13:38:39,960 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x000001D815F61E48>>: on_message() takes 2 positional arguments but 3 were given
+2022-01-13 13:38:39,960 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x000001D815F61E48>>: on_message() takes 2 positional arguments but 3 were given
+2022-01-13 13:38:39,964 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x000001D815F61E48>>: on_message() takes 2 positional arguments but 3 were given
+2022-01-13 13:38:41,603 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x000001D815F61E48>>: on_message() takes 2 positional arguments but 3 were given
+2022-01-13 13:42:10,396 INFO :: Binance Futures Client Successfully Initialized
+2022-01-13 13:42:11,157 INFO :: Binance connection successfully opened
+2022-01-13 13:42:11,324 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x00000223E8141DC8>>: on_message() takes 2 positional arguments but 3 were given
+2022-01-13 13:42:12,035 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x00000223E8141DC8>>: on_message() takes 2 positional arguments but 3 were given
+2022-01-13 13:42:12,786 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x00000223E8141DC8>>: on_message() takes 2 positional arguments but 3 were given
+2022-01-13 13:42:12,792 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x00000223E8141DC8>>: on_message() takes 2 positional arguments but 3 were given
+2022-01-13 13:42:13,197 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x00000223E8141DC8>>: on_message() takes 2 positional arguments but 3 were given
+2022-01-13 13:42:13,818 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x00000223E8141DC8>>: on_message() takes 2 positional arguments but 3 were given
+2022-01-13 13:42:13,824 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x00000223E8141DC8>>: on_message() takes 2 positional arguments but 3 were given
+2022-01-13 13:42:16,997 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x00000223E8141DC8>>: on_message() takes 2 positional arguments but 3 were given
+2022-01-13 13:42:16,999 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x00000223E8141DC8>>: on_message() takes 2 positional arguments but 3 were given
+2022-01-13 13:42:17,028 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x00000223E8141DC8>>: on_message() takes 2 positional arguments but 3 were given
+2022-01-13 13:42:17,092 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x00000223E8141DC8>>: on_message() takes 2 positional arguments but 3 were given
+2022-01-13 13:44:55,290 INFO :: Binance Futures Client Successfully Initialized
+2022-01-13 13:44:56,054 INFO :: Binance connection successfully opened
+2022-01-13 13:44:56,237 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x0000028B63EA2E08>>: on_message() takes 2 positional arguments but 3 were given
+2022-01-13 13:44:56,755 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x0000028B63EA2E08>>: on_message() takes 2 positional arguments but 3 were given
+2022-01-13 13:44:56,968 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x0000028B63EA2E08>>: on_message() takes 2 positional arguments but 3 were given
+2022-01-13 13:44:57,521 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x0000028B63EA2E08>>: on_message() takes 2 positional arguments but 3 were given
+2022-01-13 13:44:58,471 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x0000028B63EA2E08>>: on_message() takes 2 positional arguments but 3 were given
+2022-01-13 13:44:58,851 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x0000028B63EA2E08>>: on_message() takes 2 positional arguments but 3 were given
+2022-01-13 13:45:13,796 INFO :: Binance Futures Client Successfully Initialized
+2022-01-13 13:45:14,554 INFO :: Binance connection successfully opened
+2022-01-13 13:45:14,720 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x000001EE71441DC8>>: the JSON object must be str, bytes or bytearray, not WebSocketApp
+2022-01-13 13:45:14,747 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x000001EE71441DC8>>: the JSON object must be str, bytes or bytearray, not WebSocketApp
+2022-01-13 13:45:16,699 INFO :: Binance Futures Client Successfully Initialized
+2022-01-13 13:46:14,643 INFO :: Binance Futures Client Successfully Initialized
+2022-01-13 13:46:15,434 INFO :: Binance connection successfully opened
+2022-01-13 13:46:15,602 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x000001D1D867E788>>: on_message() takes 2 positional arguments but 3 were given
+2022-01-13 13:46:15,724 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x000001D1D867E788>>: on_message() takes 2 positional arguments but 3 were given
+2022-01-13 13:46:16,139 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x000001D1D867E788>>: on_message() takes 2 positional arguments but 3 were given
+2022-01-13 13:46:16,144 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x000001D1D867E788>>: on_message() takes 2 positional arguments but 3 were given
+2022-01-13 13:46:16,144 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x000001D1D867E788>>: on_message() takes 2 positional arguments but 3 were given
+2022-01-13 13:48:49,883 INFO :: Binance Futures Client Successfully Initialized
+2022-01-13 13:48:50,698 INFO :: Binance connection successfully opened
+2022-01-13 13:48:50,874 ERROR :: error from callback <bound method BinanceFuturesClient.on_message of <connectors.binance_futures.BinanceFuturesClient object at 0x000001AB33621F08>>: on_message() takes 1 positional argument but 3 were given
+2022-01-13 13:53:47,700 INFO :: Binance Futures Client Successfully Initialized
+2022-01-13 13:53:48,484 INFO :: Binance connection successfully opened
+2022-01-13 13:55:12,719 INFO :: Binance Futures Client Successfully Initialized
+2022-01-13 13:55:13,510 INFO :: Binance connection successfully opened
+2022-01-13 21:48:40,290 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-13 21:48:41,611 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-13 21:48:41,631 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-13 21:48:42,396 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642132121626&signature=ef2582e6b1d9749b95def1902632f19948f864ce77c9668da7cd0bb0fe25dccf HTTP/1.1" 200 None
+2022-01-13 21:48:42,407 INFO :: Binance Futures Client Successfully Initialized
+2022-01-13 21:48:44,136 INFO :: Binance connection successfully opened
+2022-01-13 21:49:56,411 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-13 21:49:57,213 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-13 21:49:57,239 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-13 21:49:57,856 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642132197232&signature=74bf86172850da4b96eacb71292294b7704d59e7212f154bfb7006cd7933758f HTTP/1.1" 200 None
+2022-01-13 21:49:57,863 INFO :: Binance Futures Client Successfully Initialized
+2022-01-13 21:49:58,850 INFO :: Binance connection successfully opened
+2022-01-13 22:16:51,606 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-13 22:16:52,430 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-13 22:16:52,448 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-13 22:16:53,036 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642133812444&signature=631dd915eab1e5f58624f4ef70af19cb88c1704ec779ca9efee7f0d761955b5e HTTP/1.1" 200 None
+2022-01-13 22:16:53,045 INFO :: Binance Futures Client Successfully Initialized
+2022-01-13 22:16:53,960 INFO :: Binance connection successfully opened
+2022-01-13 22:21:30,391 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-13 22:21:31,142 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-13 22:21:31,156 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-13 22:21:31,774 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642134091152&signature=83303be4ed5f51af3d2b2e0c9380ffcc127ce53832503834f007a7c4d6a9bf8b HTTP/1.1" 200 None
+2022-01-13 22:21:31,780 INFO :: Binance Futures Client Successfully Initialized
+2022-01-13 22:21:32,695 INFO :: Binance connection successfully opened
+2022-01-13 22:23:07,219 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-13 22:23:07,997 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-13 22:23:08,016 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-13 22:23:08,848 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642134188011&signature=e0c53bd615e781e8ff025036438a735cea5016e49c55687cfa410889326fa383 HTTP/1.1" 200 None
+2022-01-13 22:23:08,857 INFO :: Binance Futures Client Successfully Initialized
+2022-01-13 22:23:09,750 INFO :: Binance connection successfully opened
+2022-01-13 22:27:22,138 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-13 22:27:23,113 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-13 22:27:23,125 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-13 22:27:23,712 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642134443121&signature=af6faf3e2077c08cb6ea0cd407c721b4476dea531546ad10dc70591239d5feb8 HTTP/1.1" 200 None
+2022-01-13 22:27:23,719 INFO :: Binance Futures Client Successfully Initialized
+2022-01-13 22:27:24,748 INFO :: Binance connection successfully opened
+2022-01-13 22:28:32,010 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-13 22:28:33,054 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-13 22:28:33,072 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-13 22:28:33,713 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642134513068&signature=68e6c05cf5c79d899a51f4fca6b600071ec63fc22b955d3e8c5f943bee017e3b HTTP/1.1" 200 None
+2022-01-13 22:28:33,722 INFO :: Binance Futures Client Successfully Initialized
+2022-01-13 22:28:34,689 INFO :: Binance connection successfully opened
+2022-01-14 01:36:47,160 ERROR :: Binance connection error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-01-14 01:36:47,161 WARNING :: Binance Websocket connection closed
+2022-01-14 08:24:33,501 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-14 08:24:33,501 WARNING :: Binance Websocket connection closed
+2022-01-14 08:24:36,219 INFO :: Binance connection successfully opened
+2022-01-14 12:24:28,916 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-14 12:24:29,582 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-14 12:24:29,592 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-14 12:24:30,206 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642184669590&signature=432bb1573e68166fd91b2dbe92b5d988f7485b8c6bbb67ce5bbdbd3e9c923590 HTTP/1.1" 200 None
+2022-01-14 12:24:30,210 INFO :: Binance Futures Client Successfully Initialized
+2022-01-14 12:24:31,175 INFO :: Binance connection successfully opened
+2022-01-14 12:34:48,091 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-14 12:34:48,755 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-14 12:34:48,789 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-14 12:34:49,074 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642185288778&signature=a6b661cdb223d244437536b36681a5f99df98e7e31c388f8c13f42aeb47b4e60 HTTP/1.1" 200 None
+2022-01-14 12:34:49,092 INFO :: Binance Futures Client Successfully Initialized
+2022-01-14 12:34:49,889 INFO :: Binance connection successfully opened
+2022-01-14 12:38:11,912 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-14 12:38:12,667 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-14 12:38:12,684 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-14 12:38:13,303 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642185492679&signature=60adcbcfd1ad83dcdc27617aa6fc70e16e8ba623fb5cf111f60094cbe0f619a2 HTTP/1.1" 200 None
+2022-01-14 12:38:13,306 INFO :: Binance Futures Client Successfully Initialized
+2022-01-14 12:38:14,069 INFO :: Binance connection successfully opened
+2022-01-14 12:41:07,567 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-14 12:41:08,237 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-14 12:41:08,249 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-14 12:41:09,138 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642185668248&signature=3b0f4b7d8aaeaa05cd17b25c8202c404f3bec1bd5f8a3631ddf3ad82bf1adc4f HTTP/1.1" 200 None
+2022-01-14 12:41:09,141 INFO :: Binance Futures Client Successfully Initialized
+2022-01-14 12:41:09,888 INFO :: Binance connection successfully opened
+2022-01-14 12:55:07,217 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-14 12:55:07,904 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-14 12:55:07,913 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-14 12:55:08,187 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642186507911&signature=14e034666a4cc8f172d891144fadf43b09f9294421be570a6e8708b8bc5c7acc HTTP/1.1" 200 None
+2022-01-14 12:55:08,190 INFO :: Binance Futures Client Successfully Initialized
+2022-01-14 12:55:08,977 INFO :: Binance connection successfully opened
+2022-01-14 13:03:41,914 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-14 13:03:42,578 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-14 13:03:42,603 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-14 13:03:43,202 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642187022601&signature=a5cc22fd01027e8703697e81acb56a855b06f7cd16f56859772a6ca94562fbfe HTTP/1.1" 200 None
+2022-01-14 13:03:43,206 INFO :: Binance Futures Client Successfully Initialized
+2022-01-14 13:03:43,957 INFO :: Binance connection successfully opened
+2022-01-14 13:06:53,201 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-14 13:06:53,876 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-14 13:06:53,900 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-14 13:06:54,575 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642187213896&signature=590e5c08866d2a78b6cc0bff79b29a22a6ac0c113cb5014eb3fa304076e582c6 HTTP/1.1" 200 None
+2022-01-14 13:06:54,580 INFO :: Binance Futures Client Successfully Initialized
+2022-01-14 13:06:55,600 INFO :: Binance connection successfully opened
+2022-01-14 14:24:43,316 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-14 14:24:44,054 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-14 14:24:44,072 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-14 14:24:44,417 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642191884068&signature=aad53e7132329410a9b4395c9173c5e7842918f32149f1affbb18e8eddab8b34 HTTP/1.1" 200 None
+2022-01-14 14:24:44,420 INFO :: Binance Futures Client Successfully Initialized
+2022-01-14 14:24:45,207 INFO :: Binance connection successfully opened
+2022-01-14 15:11:06,719 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-14 15:11:07,419 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-14 15:11:07,443 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-14 15:11:08,054 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642194667438&signature=3215a04b63e7490ea41737081097ea77c6fa56bdb1fc27401e6145abab5bb11d HTTP/1.1" 200 None
+2022-01-14 15:11:08,064 INFO :: Binance Futures Client Successfully Initialized
+2022-01-14 15:11:08,848 INFO :: Binance connection successfully opened
+2022-01-14 15:12:52,218 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-14 15:12:52,970 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-14 15:12:52,977 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-14 15:12:53,648 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642194772975&signature=3a220e91a8ed307f4f5ebab4251099ab5f2e6a492ec40e120ab812e07c05d541 HTTP/1.1" 200 None
+2022-01-14 15:12:53,662 INFO :: Binance Futures Client Successfully Initialized
+2022-01-14 15:12:54,446 INFO :: Binance connection successfully opened
+2022-01-14 15:14:35,148 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-14 15:14:35,889 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-14 15:14:35,911 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-14 15:14:36,181 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642194875907&signature=6ee56698176bb1717545106ecf25ad3531f1b45fe59008b409661873a5bfa851 HTTP/1.1" 200 None
+2022-01-14 15:14:36,186 INFO :: Binance Futures Client Successfully Initialized
+2022-01-14 15:14:36,925 INFO :: Binance connection successfully opened
+2022-01-14 15:24:09,295 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-14 15:24:10,000 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-14 15:24:10,009 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-14 15:24:10,692 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642195450008&signature=17e5a2ca4ac53bfa42446adcd0678d6ac20871df95f4841966e2f80cddf7b1b7 HTTP/1.1" 200 None
+2022-01-14 15:24:10,698 INFO :: Binance Futures Client Successfully Initialized
+2022-01-14 15:24:11,468 INFO :: Binance connection successfully opened
+2022-01-14 15:27:34,782 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-14 15:27:35,443 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-14 15:27:35,463 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-14 15:27:36,092 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642195655456&signature=e48e291b1ed0cfb6b994bcc9f695b1f1b858c114ff390c0aaae60657f67c8cbe HTTP/1.1" 200 None
+2022-01-14 15:27:36,099 INFO :: Binance Futures Client Successfully Initialized
+2022-01-14 15:27:36,931 INFO :: Binance connection successfully opened
+2022-01-14 15:28:34,555 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-14 15:28:35,271 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-14 15:28:35,280 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-14 15:28:35,906 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642195715278&signature=302880fe53b58a980418ae6438cd483f11824c17b7cb6e4aba7eb702416f8cca HTTP/1.1" 200 None
+2022-01-14 15:28:35,911 INFO :: Binance Futures Client Successfully Initialized
+2022-01-14 15:28:36,749 INFO :: Binance connection successfully opened
+2022-01-14 15:31:23,422 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-14 15:31:23,798 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-14 15:31:23,820 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-14 15:31:24,467 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642195883816&signature=6f4dc7462bb4076b7ede0caf5a8976631f29590e1ce8efe93924785553cd929f HTTP/1.1" 200 None
+2022-01-14 15:31:24,482 INFO :: Binance Futures Client Successfully Initialized
+2022-01-14 15:31:25,270 INFO :: Binance connection successfully opened
+2022-01-14 15:32:18,954 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-14 15:32:19,606 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-14 15:32:19,629 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-14 15:32:20,238 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642195939625&signature=0a247ea0933d0b88196efcf1a048ff8683a271a71e26071ab74bbd18ed1f1cf5 HTTP/1.1" 200 None
+2022-01-14 15:32:20,244 INFO :: Binance Futures Client Successfully Initialized
+2022-01-14 15:32:21,012 INFO :: Binance connection successfully opened
+2022-01-14 15:33:39,258 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-14 15:33:40,018 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-14 15:33:40,027 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-14 15:33:40,692 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642196020025&signature=ac124565d01d1f5dc29bff5d8f0a1119ead01947eb304b6767ff9345a343e18f HTTP/1.1" 200 None
+2022-01-14 15:33:40,705 INFO :: Binance Futures Client Successfully Initialized
+2022-01-14 15:33:41,471 INFO :: Binance connection successfully opened
+2022-01-14 15:34:41,512 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-14 15:34:42,192 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-14 15:34:42,223 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-14 15:34:42,859 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642196082215&signature=19a2cc667ebbac767127157035834744e918e35cdf4cd709b28dcfb7ace5261f HTTP/1.1" 200 None
+2022-01-14 15:34:42,865 INFO :: Binance Futures Client Successfully Initialized
+2022-01-14 15:34:43,636 INFO :: Binance connection successfully opened
+2022-01-14 15:38:10,227 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-14 15:38:11,144 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-14 15:38:11,163 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-14 15:38:11,779 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642196291160&signature=27ad6e65b89597993fc661c50d1b8e11d8643c5bcc12127b5ca6fab6af1d5c3e HTTP/1.1" 200 None
+2022-01-14 15:38:11,791 INFO :: Binance Futures Client Successfully Initialized
+2022-01-14 15:38:12,534 INFO :: Binance connection successfully opened
+2022-01-14 15:39:03,717 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-14 15:39:04,348 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-14 15:39:04,361 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-14 15:39:04,660 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642196344357&signature=b2488fab87ea1ef66b1a814b72164fa428b2b207cce27dab47932b294e8645e7 HTTP/1.1" 200 None
+2022-01-14 15:39:04,663 INFO :: Binance Futures Client Successfully Initialized
+2022-01-14 15:39:05,497 INFO :: Binance connection successfully opened
+2022-01-14 15:39:49,407 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-14 15:39:50,081 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-14 15:39:50,087 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-14 15:39:50,761 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642196390085&signature=4cef53b1b82ca29952ed9f8a80eb6c26c6efe775ab7f5b92d4f35579acfdc653 HTTP/1.1" 200 None
+2022-01-14 15:39:50,772 INFO :: Binance Futures Client Successfully Initialized
+2022-01-14 15:39:51,532 INFO :: Binance connection successfully opened
+2022-01-14 15:39:51,532 ERROR :: Websocket error while subscribing to 148 bookTicker updates: 'NoneType' object has no attribute 'send'
+2022-01-14 15:42:13,892 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-14 15:42:14,267 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-14 15:42:14,275 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-14 15:42:14,892 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642196534273&signature=449959edb5c3d712335eee412cd4315da4a003dc7cd45a80dd716fd077af853e HTTP/1.1" 200 None
+2022-01-14 15:42:14,895 INFO :: Binance Futures Client Successfully Initialized
+2022-01-14 15:42:15,679 INFO :: Binance connection successfully opened
+2022-01-14 15:42:15,679 ERROR :: Websocket error while subscribing to 148 bookTicker updates: 'NoneType' object has no attribute 'send'
+2022-01-14 15:49:16,888 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-14 15:49:17,788 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-14 15:49:17,798 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-14 15:49:18,437 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642196957796&signature=119cac92871e53a94b247376c97cf294f4f2714c56fe0f2f7104729c595ceec7 HTTP/1.1" 200 None
+2022-01-14 15:49:18,450 INFO :: Binance Futures Client Successfully Initialized
+2022-01-14 15:49:19,253 INFO :: Binance connection successfully opened
+2022-01-14 16:01:27,672 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-14 16:01:28,378 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-14 16:01:28,401 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-14 16:01:28,995 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642197688398&signature=cc5d2bb13c92c78528b3ac28976ec3c54954f7c4e4c82f463cae36b2c84a9b4b HTTP/1.1" 200 None
+2022-01-14 16:01:29,012 INFO :: Binance Futures Client Successfully Initialized
+2022-01-14 16:01:29,865 INFO :: Binance connection successfully opened
+2022-01-14 16:11:11,856 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-14 16:11:12,565 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-14 16:11:12,594 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-14 16:11:13,262 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642198272589&signature=2cc4d5871126d2840b43f645e1e07cb1655de18d5ceef6b1cd1ac0f45403cfe8 HTTP/1.1" 200 None
+2022-01-14 16:11:13,267 INFO :: Binance Futures Client Successfully Initialized
+2022-01-14 16:12:18,182 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-14 16:12:18,851 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-14 16:12:18,868 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-14 16:12:19,528 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642198338865&signature=be496d8232b937a081e0ad31bc48fe55c4d7d80d0c9c55899f8b50443bb8b06f HTTP/1.1" 200 None
+2022-01-14 16:12:19,535 INFO :: Binance Futures Client Successfully Initialized
+2022-01-14 16:12:20,283 INFO :: Binance connection successfully opened
+2022-01-14 16:14:02,132 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-14 16:14:02,787 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-14 16:14:02,793 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-14 16:14:03,055 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642198442792&signature=307b454b2dcf94d8a9faa41f179f0cd531d7e03b34438c9f64be36ee60b984e6 HTTP/1.1" 200 None
+2022-01-14 16:14:03,059 INFO :: Binance Futures Client Successfully Initialized
+2022-01-14 16:14:03,834 INFO :: Binance connection successfully opened
+2022-01-14 16:36:16,844 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-14 16:36:17,313 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-14 16:36:17,344 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-14 16:36:17,679 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642199777336&signature=721ba109f6d4138a7ff69dbc8a4c7de07250cdbec931789845dd22d4af8733ba HTTP/1.1" 200 None
+2022-01-14 16:36:17,692 INFO :: Binance Futures Client Successfully Initialized
+2022-01-14 16:36:18,711 INFO :: Binance connection successfully opened
+2022-01-14 16:37:12,275 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-14 16:37:12,899 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-14 16:37:12,904 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-14 16:37:13,188 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642199832903&signature=95511f2188c3e630e811557086e88c2d38847fe8c25e37d01977ac41bf60f235 HTTP/1.1" 200 None
+2022-01-14 16:37:13,194 INFO :: Binance Futures Client Successfully Initialized
+2022-01-14 16:37:13,991 INFO :: Binance connection successfully opened
+2022-01-14 16:37:43,313 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-14 16:37:43,659 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-14 16:37:43,678 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-14 16:37:44,280 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642199863676&signature=17d8425094b121b064e099ba8cfd0ba3124e9e98a90dc917f3c40b4a039bedb2 HTTP/1.1" 200 None
+2022-01-14 16:37:44,285 INFO :: Binance Futures Client Successfully Initialized
+2022-01-14 16:37:45,054 INFO :: Binance connection successfully opened
+2022-01-14 16:41:32,010 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-14 16:41:32,681 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-14 16:41:32,690 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-14 16:41:33,298 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642200092688&signature=1ffdc4876d692e9a536c82643bb4c436d6655fc7f8e6873328c790e092790f9a HTTP/1.1" 200 None
+2022-01-14 16:41:33,304 INFO :: Binance Futures Client Successfully Initialized
+2022-01-14 16:41:34,106 INFO :: Binance connection successfully opened
+2022-01-14 16:45:34,451 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-14 16:45:35,176 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-14 16:45:35,184 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-14 16:45:35,790 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642200335182&signature=e4032e098af54ebf7fd8ad3cb8f42377f4e69d5660e6d5d8dc6dbbf99aac3e2d HTTP/1.1" 200 None
+2022-01-14 16:45:35,795 INFO :: Binance Futures Client Successfully Initialized
+2022-01-14 16:45:36,564 INFO :: Binance connection successfully opened
+2022-01-14 17:04:17,156 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-14 17:04:17,827 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-14 17:04:17,846 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-14 17:04:18,564 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642201457842&signature=02aa783da86b5e136856a907358ef4073765db7abf8b8bdda295b7c91c4c6921 HTTP/1.1" 200 None
+2022-01-14 17:04:18,567 INFO :: Binance Futures Client Successfully Initialized
+2022-01-14 17:04:19,345 INFO :: Binance connection successfully opened
+2022-01-14 17:25:56,627 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-14 17:25:56,955 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-14 17:25:56,975 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-14 17:25:57,245 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642202756972&signature=994af51f6854b4215ecb3c0156e19788f36c363aa853591b644257e5fa0d1537 HTTP/1.1" 200 None
+2022-01-14 17:25:57,253 INFO :: Binance Futures Client Successfully Initialized
+2022-01-14 17:25:58,314 INFO :: Binance connection successfully opened
+2022-01-15 07:32:34,643 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-15 07:32:35,565 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-15 07:32:35,585 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-15 07:32:35,868 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642253555581&signature=9616cd53f62c3dd9aabd5b7ce6c4bd26c51c70a84d88f9ee1793f9954ba5b734 HTTP/1.1" 200 None
+2022-01-15 07:32:35,876 INFO :: Binance Futures Client Successfully Initialized
+2022-01-15 07:32:36,997 INFO :: Binance connection successfully opened
+2022-01-15 07:33:41,142 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-15 07:33:41,919 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-15 07:33:41,928 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-15 07:33:42,327 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642253621926&signature=98989afbb7e8303e463d133a36d3b682946f5cf5222478c273e28b33ee09b925 HTTP/1.1" 200 None
+2022-01-15 07:33:42,334 INFO :: Binance Futures Client Successfully Initialized
+2022-01-15 07:33:43,316 INFO :: Binance connection successfully opened
+2022-01-15 07:51:25,609 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-15 07:51:26,687 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-15 07:51:26,702 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-15 07:51:27,605 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642254686698&signature=f34b9002afac5cafb78e65c9332a96bf1993ee7a9b02a742e5998325e3010ba0 HTTP/1.1" 200 None
+2022-01-15 07:51:27,612 INFO :: Binance Futures Client Successfully Initialized
+2022-01-15 07:51:28,716 INFO :: Binance connection successfully opened
+2022-01-15 07:52:31,497 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-15 07:52:32,329 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-15 07:52:32,357 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-15 07:52:32,976 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642254752354&signature=1d172f63e21bee24fb0d978b3ba745c0f7c4180c5354a29b39c5bd97db2a5b20 HTTP/1.1" 200 None
+2022-01-15 07:52:32,984 INFO :: Binance Futures Client Successfully Initialized
+2022-01-15 07:52:33,940 INFO :: Binance connection successfully opened
+2022-01-15 07:54:33,348 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-15 07:54:34,391 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-15 07:54:34,407 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-15 07:54:35,002 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642254874403&signature=0c1236ac6312695987fe718d4a314f3cfa5c9e1dd3e16687c3607eb0ebf856f6 HTTP/1.1" 200 None
+2022-01-15 07:54:35,010 INFO :: Binance Futures Client Successfully Initialized
+2022-01-15 07:54:36,026 INFO :: Binance connection successfully opened
+2022-01-15 07:55:33,360 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-15 07:55:33,983 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-15 07:55:33,999 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-15 07:55:34,394 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642254933995&signature=30edc5614d071917bc022ce304a4a13a0ee90535705592ecbf9025cf26a0f0c2 HTTP/1.1" 200 None
+2022-01-15 07:55:34,400 INFO :: Binance Futures Client Successfully Initialized
+2022-01-15 07:55:35,255 INFO :: Binance connection successfully opened
+2022-01-15 07:56:05,036 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-15 07:56:05,934 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-15 07:56:05,950 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-15 07:56:06,854 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642254965947&signature=95f54ddeedc542be68cdde93a079a6a11902168adf6ddb0c0e3e8cc4996dca5f HTTP/1.1" 200 None
+2022-01-15 07:56:06,862 INFO :: Binance Futures Client Successfully Initialized
+2022-01-15 07:56:07,981 INFO :: Binance connection successfully opened
+2022-01-15 07:56:10,233 INFO :: LTCUSDT 146.09 / 146.1
+2022-01-15 07:56:10,235 INFO :: LTCUSDT 146.05 / 146.1
+2022-01-15 07:56:11,717 INFO :: LTCUSDT 146.09 / 146.1
+2022-01-15 07:56:11,755 INFO :: LTCUSDT 146.09 / 146.14
+2022-01-15 07:56:13,796 INFO :: LTCUSDT 146.09 / 146.14
+2022-01-15 07:56:13,808 INFO :: LTCUSDT 146.12 / 146.14
+2022-01-15 07:56:13,853 INFO :: LTCUSDT 146.12 / 146.14
+2022-01-15 07:56:13,896 INFO :: LTCUSDT 146.12 / 146.18
+2022-01-15 07:56:13,908 INFO :: LTCUSDT 146.12 / 146.22
+2022-01-15 07:56:32,283 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-15 07:56:33,069 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-15 07:56:33,087 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-15 07:56:36,040 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642254993083&signature=4491c5216bc28265aa9b391ee04dbf787b821a5544f423ab2613a094e3783def HTTP/1.1" 200 None
+2022-01-15 07:56:36,045 INFO :: Binance Futures Client Successfully Initialized
+2022-01-15 07:56:37,066 INFO :: Binance connection successfully opened
+2022-01-15 07:56:37,563 INFO :: LTCUSDT 146.05 / 146.12
+2022-01-15 07:56:37,580 INFO :: LTCUSDT 146.05 / 146.14
+2022-01-15 07:56:39,728 INFO :: LTCUSDT 146.07 / 146.14
+2022-01-15 07:56:39,728 INFO :: LTCUSDT 146.07 / 146.13
+2022-01-15 07:56:39,955 INFO :: LTCUSDT 146.07 / 146.13
+2022-01-15 07:56:41,774 INFO :: LTCUSDT 146.07 / 146.14
+2022-01-15 07:56:41,779 INFO :: LTCUSDT 146.24 / 146.26
+2022-01-15 07:56:42,185 INFO :: LTCUSDT 146.24 / 146.29
+2022-01-15 07:56:58,195 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-15 07:56:58,817 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-15 07:56:58,837 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-15 07:56:59,488 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642255018834&signature=3c32f88261be9c9cd78cf0a3a126e2dda72662b4ca91f439b468975c1fbb9ec9 HTTP/1.1" 200 None
+2022-01-15 07:56:59,497 INFO :: Binance Futures Client Successfully Initialized
+2022-01-15 07:57:00,497 INFO :: Binance connection successfully opened
+2022-01-15 07:57:48,014 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-15 07:57:48,749 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-15 07:57:48,764 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-15 07:57:49,358 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642255068760&signature=5e223a21c48a648769482a1856150b6d0aab0c1f1eb565d0fd1ba4ba803cf2d0 HTTP/1.1" 200 None
+2022-01-15 07:57:49,366 INFO :: Binance Futures Client Successfully Initialized
+2022-01-15 07:57:50,382 INFO :: Binance connection successfully opened
+2022-01-15 08:02:14,602 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-15 08:02:15,398 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-15 08:02:15,413 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-15 08:02:15,701 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642255335410&signature=7f6600f31d6aea51198ab2d2dd4d2c8be7d2fac9c46e3e96e8e4520f84cd8e50 HTTP/1.1" 200 None
+2022-01-15 08:02:15,708 INFO :: Binance Futures Client Successfully Initialized
+2022-01-15 08:02:16,685 INFO :: Binance connection successfully opened
+2022-01-15 08:09:08,621 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-15 08:09:09,404 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-15 08:09:09,419 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-15 08:09:10,017 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642255749415&signature=d357ef167e7cd7951d9380b8957f07e5e2813a308af9a0e10cfda93aab88ef60 HTTP/1.1" 200 None
+2022-01-15 08:09:10,024 INFO :: Binance Futures Client Successfully Initialized
+2022-01-15 08:09:10,938 INFO :: Binance connection successfully opened
+2022-01-15 08:13:31,341 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-15 08:13:32,064 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-15 08:13:32,071 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-15 08:13:32,883 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642256012069&signature=805f9cc5bfead4910f7e483930aca538c787b56741f34e216ec6acebe4782ed6 HTTP/1.1" 200 None
+2022-01-15 08:13:32,892 INFO :: Binance Futures Client Successfully Initialized
+2022-01-15 08:13:33,905 INFO :: Binance connection successfully opened
+2022-01-15 08:26:22,878 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-15 08:26:23,572 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-15 08:26:23,581 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-15 08:26:24,269 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642256783580&signature=03f7bbcc864041a1a394ac032c2c03373dd0c59ec453bfe95c5a2ed383234faa HTTP/1.1" 200 None
+2022-01-15 08:26:24,277 INFO :: Binance Futures Client Successfully Initialized
+2022-01-15 08:26:25,395 INFO :: Binance connection successfully opened
+2022-01-15 08:29:24,647 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-15 08:29:25,424 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-15 08:29:25,438 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-15 08:29:26,438 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642256965435&signature=bc5e27d2ee4e61a3d3ad4dd58d4710b4deeac548e4e0df2238ea3cbbafeb3573 HTTP/1.1" 200 None
+2022-01-15 08:29:26,447 INFO :: Binance Futures Client Successfully Initialized
+2022-01-15 08:29:27,429 INFO :: Binance connection successfully opened
+2022-01-15 10:20:59,965 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-15 10:21:00,805 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-15 10:21:00,943 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-15 10:21:02,001 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642263660938&signature=a7aabc10c1a855613e061400d620b7da187df93474ac396b6839dd5ed4d2866b HTTP/1.1" 200 None
+2022-01-15 10:21:02,011 INFO :: Binance Futures Client Successfully Initialized
+2022-01-15 10:21:02,925 INFO :: Binance connection successfully opened
+2022-01-15 12:26:06,828 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-15 12:26:07,595 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-15 12:26:07,612 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-15 12:26:08,199 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642271167609&signature=4b2ef5290780a0b14cbc7c4c578a4ef111cf26c3e0a8974261a3a4f159f6736f HTTP/1.1" 200 None
+2022-01-15 12:26:08,207 INFO :: Binance Futures Client Successfully Initialized
+2022-01-15 12:26:09,342 INFO :: Binance connection successfully opened
+2022-01-16 00:34:47,118 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-16 00:34:48,071 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-16 00:34:48,082 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-16 00:34:49,287 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642314888080&signature=8fc52ac504c275cb22b04186b8d10b877a22724a81a7dd2a50558221ff7aa35a HTTP/1.1" 200 None
+2022-01-16 00:34:49,296 INFO :: Binance Futures Client Successfully Initialized
+2022-01-16 00:34:49,301 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-16 00:34:50,423 DEBUG :: https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=BTCUSDT&side=Limit&quantity=100.0&type=Buy&price=10000.19&timeInForce=GoodTillCancel&timestamp=1642314889296&signature=4a2ef4bde0255fc2e01b7db32d19047427c50174c51ed0a325402d2d6ed876ca HTTP/1.1" 400 36
+2022-01-16 00:34:50,425 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -1117, 'msg': 'Invalid side.'} (error code 400)
+2022-01-16 00:34:51,011 INFO :: Binance connection successfully opened
+2022-01-16 00:42:10,626 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-16 00:42:11,504 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-16 00:42:11,536 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-16 00:42:12,311 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642315331528&signature=61f7ab2ac792654b92c7e52f09775d4b9fdf2eca8f723bb1adfe3e1f320ced7a HTTP/1.1" 200 None
+2022-01-16 00:42:12,322 INFO :: Binance Futures Client Successfully Initialized
+2022-01-16 00:42:12,327 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-16 00:42:13,253 INFO :: Binance connection successfully opened
+2022-01-16 00:42:14,271 DEBUG :: https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=BTCUSDT&side=Buy&quantity=100.0&type=Limit&price=10000.19&timestamp=1642315332322&signature=227c7803fc1b334845f652ed5735ce224625466f12866ceb00f55cb7f8f99c3e HTTP/1.1" 400 36
+2022-01-16 00:42:14,275 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -1117, 'msg': 'Invalid side.'} (error code 400)
+2022-01-16 00:45:16,147 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-16 00:45:17,014 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-16 00:45:17,031 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-16 00:45:17,711 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642315517027&signature=35e13a378b3903e8d48209158efc67b9bb22b3fb98bc90ade2cd0321d0665020 HTTP/1.1" 200 None
+2022-01-16 00:45:17,718 INFO :: Binance Futures Client Successfully Initialized
+2022-01-16 00:45:17,725 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-16 00:45:18,361 DEBUG :: https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=BTCUSDT&side=BUY&quantity=100.0&type=Limit&price=10000.19&timestamp=1642315517718&signature=222af90eff52c75e82c622cccc88ea649e40ae1a61515cec1955b85efbb263e2 HTTP/1.1" 400 41
+2022-01-16 00:45:18,365 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -1116, 'msg': 'Invalid orderType.'} (error code 400)
+2022-01-16 00:45:18,489 INFO :: Binance connection successfully opened
+2022-01-16 00:48:42,058 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-16 00:48:44,356 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-16 00:48:44,370 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-16 00:48:45,312 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642315724367&signature=52b0a920fc9e136874b1a6f6210508d7f29229ee525443bb37b322b48df015ba HTTP/1.1" 200 None
+2022-01-16 00:48:45,321 INFO :: Binance Futures Client Successfully Initialized
+2022-01-16 00:48:47,335 INFO :: Binance connection successfully opened
+2022-01-16 00:49:21,082 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-16 00:49:21,710 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-16 00:49:21,727 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-16 00:49:22,335 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642315761722&signature=7fab50f4df03470c9fc400125717e5f32bcaed2948ac45b00dd742fe926f9d08 HTTP/1.1" 200 None
+2022-01-16 00:49:22,344 INFO :: Binance Futures Client Successfully Initialized
+2022-01-16 00:49:22,349 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-16 00:49:22,986 DEBUG :: https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=BTCUSDT&side=BUY&quantity=100.0&type=LIMIT&price=10000.19&timeInForce=GTC&timestamp=1642315762345&signature=3e0059ab07f3a44bd3123482c603b0981b1088b944eee27dc6ec7a82fd8e0242 HTTP/1.1" 400 56
+2022-01-16 00:49:22,989 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4014, 'msg': 'Price not increased by tick size.'} (error code 400)
+2022-01-16 00:49:35,978 INFO :: Binance connection successfully opened
+2022-01-16 00:54:46,911 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-16 00:54:48,034 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-16 00:54:48,048 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-16 00:54:48,668 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642316088045&signature=f2280adbde830e3c05574b234f53547703de52a176e166bece0c28d72e3d406b HTTP/1.1" 200 None
+2022-01-16 00:54:48,677 INFO :: Binance Futures Client Successfully Initialized
+2022-01-16 00:54:48,682 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-16 00:54:50,314 DEBUG :: https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=BTCUSDT&side=BUY&quantity=100.0&type=LIMIT&price=10000.19&timeInForce=GTC&timestamp=1642316088677&signature=06ba5ef207850ce4f2955b2c21beb2a8ca92b50fb59d98cb7950d49feac458af HTTP/1.1" 400 56
+2022-01-16 00:54:50,315 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4014, 'msg': 'Price not increased by tick size.'} (error code 400)
+2022-01-16 00:54:51,149 INFO :: Binance connection successfully opened
+2022-01-16 00:57:44,290 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-16 00:57:45,449 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-16 00:57:45,462 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-16 00:57:46,132 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642316265459&signature=6966c0cabf460c1cab5ee3796d34686219348e9d90735c197d394be42368f9bd HTTP/1.1" 200 None
+2022-01-16 00:57:46,140 INFO :: Binance Futures Client Successfully Initialized
+2022-01-16 00:57:46,146 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-16 00:57:46,826 DEBUG :: https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=BTCUSDT&side=BUY&quantity=100.0&type=LIMIT&price=10000.19&timeInForce=GTC&timestamp=1642316266141&signature=7cebbbd216fe158d73f7deadec3aa0eded03107a5432c97238bf16152e387248 HTTP/1.1" 400 56
+2022-01-16 00:57:46,829 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4014, 'msg': 'Price not increased by tick size.'} (error code 400)
+2022-01-16 00:57:47,982 INFO :: Binance connection successfully opened
+2022-01-16 01:02:04,729 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-16 01:02:06,480 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-16 01:02:06,492 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-16 01:02:06,779 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642316526489&signature=95e5f43b47782ad19571c4aca7518d3a1ebf87806376a38f74ff5497320747de HTTP/1.1" 200 None
+2022-01-16 01:02:06,786 INFO :: Binance Futures Client Successfully Initialized
+2022-01-16 01:02:06,790 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-16 01:02:07,559 DEBUG :: https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=BTCUSDT&side=BUY&quantity=100.0&type=LIMIT&price=10000.19&timeInForce=GTC&timestamp=1642316526786&signature=b96ec28f60373e1c3e54d7af20aba266566b94380a45fee4763e3f9a638c345c HTTP/1.1" 400 56
+2022-01-16 01:02:07,566 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4014, 'msg': 'Price not increased by tick size.'} (error code 400)
+2022-01-16 01:02:08,090 INFO :: Binance connection successfully opened
+2022-01-16 01:02:17,093 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-16 01:02:17,737 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-16 01:02:17,755 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-16 01:02:18,038 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642316537751&signature=d0106ade03d3f81120e0a121d4bb32b539e1c31cf0d74ddabd591ced2e68a6ac HTTP/1.1" 200 None
+2022-01-16 01:02:18,052 INFO :: Binance Futures Client Successfully Initialized
+2022-01-16 01:02:18,063 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-16 01:02:18,889 DEBUG :: https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=BTCUSDT&side=BUY&quantity=100.0&type=LIMIT&price=10000.19&timeInForce=GTC&timestamp=1642316538052&signature=a43ed866419fcc2679b8c5e926c24a2eb37643894856a8f3d5f0f4394911bd13 HTTP/1.1" 400 56
+2022-01-16 01:02:18,892 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4014, 'msg': 'Price not increased by tick size.'} (error code 400)
+2022-01-16 01:02:18,992 INFO :: Binance connection successfully opened
+2022-01-16 01:02:31,642 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-16 01:02:32,272 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-16 01:02:32,292 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-16 01:02:34,002 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642316552288&signature=d4578c57f0530b0d059d9c7436d7915be6224fe7254aa1788e2ed37274b68a87 HTTP/1.1" 200 None
+2022-01-16 01:02:34,009 INFO :: Binance Futures Client Successfully Initialized
+2022-01-16 01:02:34,014 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-16 01:02:34,288 DEBUG :: https://testnet.binancefuture.com:443 "POST /fapi/v1/order?symbol=BTCUSDT&side=BUY&quantity=100.0&type=LIMIT&price=10000.0&timeInForce=GTC&timestamp=1642316554010&signature=c06e4e0590981e55d91670fd2b23fa890763e0a53576dbf51c442ed8b5720669 HTTP/1.1" 200 None
+2022-01-16 01:02:34,726 INFO :: Binance connection successfully opened
+2022-01-16 01:04:00,523 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-16 01:04:01,249 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-16 01:04:01,265 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-16 01:04:01,864 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642316641261&signature=945ca63902879a1d0c2a566437c2bfb43bb04a780dfb6758e84ce7a3cc473759 HTTP/1.1" 200 None
+2022-01-16 01:04:01,871 INFO :: Binance Futures Client Successfully Initialized
+2022-01-16 01:04:07,965 INFO :: Binance connection successfully opened
+2022-01-16 01:05:04,737 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-16 01:05:05,422 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-16 01:05:05,432 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-16 01:05:05,722 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642316705430&signature=647441a2390fdc72242c109aadc0402802c3cb1685f81bd1871fc127369d46fa HTTP/1.1" 200 None
+2022-01-16 01:05:05,729 INFO :: Binance Futures Client Successfully Initialized
+2022-01-16 01:05:05,735 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-16 01:05:06,302 DEBUG :: https://testnet.binancefuture.com:443 "DELETE /fapi/v1/order?orderId=2107462404936&symbol=BTCUSDT&timestamp=1642316705730&signature=cf87caa8a9b6218536b294bfb3e9ef5b4e38e4e791ddfe6b508b9b850d2020b9 HTTP/1.1" 400 42
+2022-01-16 01:05:06,305 ERROR :: Error while making DELETE request to /fapi/v1/order: {'code': -2011, 'msg': 'Unknown order sent.'} (error code 400)
+2022-01-16 01:05:06,787 INFO :: Binance connection successfully opened
+2022-01-16 01:21:50,721 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-16 01:21:51,356 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-16 01:21:51,371 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-16 01:21:51,950 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642317711367&signature=b8bdf098bdf9c97894b0eb9e4b67e87810046b2432e290d3c76f780fdc0214c5 HTTP/1.1" 200 None
+2022-01-16 01:21:51,957 INFO :: Binance Futures Client Successfully Initialized
+2022-01-16 01:21:51,961 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-16 01:21:52,526 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/openOrders?timestamp=1642317711957&symbol=BTCUSDT&signature=61148e6fac1c90408fbe46ec4cb0eb99cb14f48a579f5b48024ac746f49d4ee5 HTTP/1.1" 200 None
+2022-01-16 01:21:52,991 INFO :: Binance connection successfully opened
+2022-01-16 09:27:38,318 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-16 09:27:39,316 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-16 09:27:39,337 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-16 09:27:40,428 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642346859334&signature=7627898c8b7117e77c3039a5bc05f37b8a92c2b3ddfb48b7fe9c5d3843d86a22 HTTP/1.1" 200 None
+2022-01-16 09:27:40,433 INFO :: Binance Futures Client Successfully Initialized
+2022-01-16 09:27:42,300 INFO :: Binance connection successfully opened
+2022-01-16 11:06:02,597 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-16 11:06:03,656 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-16 11:06:03,694 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-16 11:06:04,653 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642352763682&signature=8174e7415ea97a6ee29c844e17eb2128e1c8ca25b9a70b3cba39cad39a32a04b HTTP/1.1" 200 None
+2022-01-16 11:06:04,660 INFO :: Binance Futures Client Successfully Initialized
+2022-01-16 11:06:07,925 INFO :: Binance connection successfully opened
+2022-01-16 11:08:48,006 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-16 11:08:49,015 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-16 11:08:49,029 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-16 11:08:49,361 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642352929026&signature=dcd304007692777a7c627813fe80b6c3acdcc37e83595bc332c1244c315717ad HTTP/1.1" 200 None
+2022-01-16 11:08:49,371 INFO :: Binance Futures Client Successfully Initialized
+2022-01-16 11:08:50,324 INFO :: Binance connection successfully opened
+2022-01-16 11:18:18,281 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-16 11:18:19,394 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-16 11:18:19,413 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-16 11:18:20,319 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642353499408&signature=f03b106d9a0919e37998f8f3c1dab6ae5678e80c74f4ebe7db773e6555878ef5 HTTP/1.1" 200 None
+2022-01-16 11:18:20,358 INFO :: Binance Futures Client Successfully Initialized
+2022-01-16 11:18:21,210 INFO :: Binance connection successfully opened
+2022-01-16 21:22:24,184 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-16 21:22:25,945 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-16 21:22:25,961 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-16 21:22:26,246 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642389745957&signature=d0ff0b476d350d59f1d1237c73e24e96d7ecb6279a396513cf87f3927c31d018 HTTP/1.1" 200 None
+2022-01-16 21:22:26,255 INFO :: Binance Futures Client Successfully Initialized
+2022-01-16 21:22:28,709 INFO :: Binance connection successfully opened
+2022-01-16 21:56:40,293 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-16 21:56:41,147 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-16 21:56:41,162 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-16 21:56:41,920 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642391801159&signature=c31004845dfc8ff8f9bcbcfef35c343b2ccbc9f80f1eeed2c3ae0918e21ab527 HTTP/1.1" 200 None
+2022-01-16 21:56:41,927 INFO :: Binance Futures Client Successfully Initialized
+2022-01-16 21:56:42,959 INFO :: Binance connection successfully opened
+2022-01-16 21:57:09,833 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-16 21:57:10,721 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-16 21:57:10,726 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-16 21:57:11,486 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642391830725&signature=e1bf8d70dceb0b7c39d145e636d4c6755cc7781513f514116bee3850acf6ef8d HTTP/1.1" 200 None
+2022-01-16 21:57:11,494 INFO :: Binance Futures Client Successfully Initialized
+2022-01-16 21:57:13,578 INFO :: Binance connection successfully opened
+2022-01-16 23:42:34,054 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-16 23:42:34,833 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-16 23:42:34,852 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-16 23:42:35,473 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642398154848&signature=ae712b37c3006815ada8a210b93467695164c767b41943f84c3d88926fa42d64 HTTP/1.1" 200 None
+2022-01-16 23:42:35,483 INFO :: Binance Futures Client Successfully Initialized
+2022-01-16 23:42:36,558 INFO :: Binance connection successfully opened
+2022-01-17 10:57:36,681 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-17 10:57:37,732 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-17 10:57:37,753 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-17 10:57:38,302 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642438657750&signature=31a451a0a896c8c4f05f0912012e4dec1ad02ccf1be3b83ed7dc438780340f26 HTTP/1.1" 200 None
+2022-01-17 10:57:38,306 INFO :: Binance Futures Client Successfully Initialized
+2022-01-17 10:57:39,405 INFO :: Binance connection successfully opened
+2022-01-17 11:02:18,305 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-17 11:02:18,874 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-17 11:02:18,881 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-17 11:02:19,446 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642438938879&signature=452ee4e0f19c3e185b384335e91ea7b7eaa9848c90e0c7d5ef451303a8273340 HTTP/1.1" 200 None
+2022-01-17 11:02:19,451 INFO :: Binance Futures Client Successfully Initialized
+2022-01-17 11:02:20,225 INFO :: Binance connection successfully opened
+2022-01-17 11:04:49,391 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-17 11:04:50,027 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-17 11:04:50,048 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-17 11:04:50,595 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642439090045&signature=e2be1c1586285aea94f91830ae80dd86eb0f2ed2dde4bd0eedb49a5ccf82fc9c HTTP/1.1" 200 None
+2022-01-17 11:04:50,598 INFO :: Binance Futures Client Successfully Initialized
+2022-01-17 11:04:51,336 INFO :: Binance connection successfully opened
+2022-01-17 11:05:43,018 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-17 11:05:43,576 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-17 11:05:43,613 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-17 11:05:43,873 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642439143609&signature=a1b1256b202f8149c99544181168c9419ff148498f6b3c1674ad06264ebe0c0e HTTP/1.1" 200 None
+2022-01-17 11:05:43,877 INFO :: Binance Futures Client Successfully Initialized
+2022-01-17 11:05:44,665 INFO :: Binance connection successfully opened
+2022-01-17 11:11:46,503 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-17 11:11:48,606 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-17 11:11:48,622 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-17 11:11:49,345 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642439508618&signature=38211c60039ad8ed78b934ae414f7e9cb037923cbdd01eb8d24a68e97eef95f8 HTTP/1.1" 200 None
+2022-01-17 11:11:49,351 INFO :: Binance Futures Client Successfully Initialized
+2022-01-17 11:11:50,209 INFO :: Binance connection successfully opened
+2022-01-17 12:42:45,622 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-17 12:42:46,487 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-17 12:42:46,497 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-17 12:42:47,058 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642444966495&signature=e80c3d701cac469bba4dcf8f6d53ad0a2cc2af30658c9b00d8f0aabe3f9f128c HTTP/1.1" 200 None
+2022-01-17 12:42:47,062 INFO :: Binance Futures Client Successfully Initialized
+2022-01-17 12:42:47,898 INFO :: Binance connection successfully opened
+2022-01-17 12:45:19,136 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-17 12:45:19,789 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-17 12:45:19,820 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-17 12:45:20,394 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642445119816&signature=513d0e90767d5206dbbc3780992b9892e4957c7b797b19480fc8486a7573ead7 HTTP/1.1" 200 None
+2022-01-17 12:45:20,398 INFO :: Binance Futures Client Successfully Initialized
+2022-01-17 12:45:21,194 INFO :: Binance connection successfully opened
+2022-01-17 16:11:42,541 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-17 16:11:43,153 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-17 16:11:43,161 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-17 16:11:43,704 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642457503159&signature=f74b4a9b91e3ed2aa13ab7a12a9eb183abca633597c64e1eed87c41d80012362 HTTP/1.1" 200 None
+2022-01-17 16:11:43,717 INFO :: Binance Futures Client Successfully Initialized
+2022-01-17 16:11:44,769 INFO :: Binance connection successfully opened
+2022-01-17 16:13:24,863 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-17 16:13:25,460 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-17 16:13:25,481 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-17 16:13:26,058 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642457605477&signature=28a9e1a7db91e0696fae7921ea4add33a59b9f75855e2b7375a56f48831ab301 HTTP/1.1" 200 None
+2022-01-17 16:13:26,062 INFO :: Binance Futures Client Successfully Initialized
+2022-01-17 16:13:26,955 INFO :: Binance connection successfully opened
+2022-01-17 16:17:13,864 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-17 16:17:14,464 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-17 16:17:14,478 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-17 16:17:15,021 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642457834475&signature=045216f6d3da8f1eac9a9d03260afd91a66329c6a5acb13b860f24a89f6e4a7c HTTP/1.1" 200 None
+2022-01-17 16:17:15,025 INFO :: Binance Futures Client Successfully Initialized
+2022-01-17 16:17:15,785 INFO :: Binance connection successfully opened
+2022-01-17 16:21:29,913 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-17 16:21:30,586 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-17 16:21:30,600 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-17 16:21:31,157 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642458090597&signature=ae0fb866c771dee2a07902afb2d3ede7c43453fcd9a2672e5ec218056a605e6b HTTP/1.1" 200 None
+2022-01-17 16:21:31,163 INFO :: Binance Futures Client Successfully Initialized
+2022-01-17 16:21:31,954 INFO :: Binance connection successfully opened
+2022-01-17 17:19:43,378 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-17 17:19:44,169 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-17 17:19:44,183 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-17 17:19:44,740 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642461584180&signature=3b4692f68ea77192a5804249dea71e804c189db31ab4eb9013034e8388cfda87 HTTP/1.1" 200 None
+2022-01-17 17:19:44,743 INFO :: Binance Futures Client Successfully Initialized
+2022-01-17 17:19:45,524 INFO :: Binance connection successfully opened
+2022-01-17 22:06:54,941 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-17 22:06:55,704 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-17 22:06:55,725 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-17 22:06:56,373 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642478815720&signature=08ccf595c3542df1aa78dcb8994329ad309376352eaa604db1f867d55690130c HTTP/1.1" 200 None
+2022-01-17 22:06:56,380 INFO :: Binance Futures Client Successfully Initialized
+2022-01-17 22:06:59,568 INFO :: Binance connection successfully opened
+2022-01-17 22:07:39,352 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-17 22:07:39,656 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-17 22:07:39,674 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-17 22:07:41,681 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642478859669&signature=b8f1f32796aaed6893ead8d06546304d7d713b452ed3d99425c59e4eec9dbd62 HTTP/1.1" 200 None
+2022-01-17 22:07:41,693 INFO :: Binance Futures Client Successfully Initialized
+2022-01-17 22:07:43,896 INFO :: Binance connection successfully opened
+2022-01-18 10:13:23,133 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-18 10:13:23,556 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-18 10:13:23,573 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-18 10:13:24,087 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642522403569&signature=4c13f1c3cf745c1b2e583487d74f8e8b122650c787ed418ab6217ca96dc499d3 HTTP/1.1" 200 None
+2022-01-18 10:13:24,094 INFO :: Binance Futures Client Successfully Initialized
+2022-01-18 10:13:25,112 INFO :: Binance connection successfully opened
+2022-01-18 10:36:28,300 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-18 10:36:29,081 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-18 10:36:29,102 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-18 10:36:29,689 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642523789098&signature=fea1f7dfaef763480a28fdc71357158d64bea3a610726f04cb22ddbc41ee7e38 HTTP/1.1" 200 None
+2022-01-18 10:36:29,695 INFO :: Binance Futures Client Successfully Initialized
+2022-01-18 10:36:30,772 INFO :: Binance connection successfully opened
+2022-01-18 13:38:18,055 ERROR :: Binance connection error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-01-18 13:38:18,061 WARNING :: Binance Websocket connection closed
+2022-01-18 13:38:21,488 INFO :: Binance connection successfully opened
+2022-01-19 08:38:34,734 ERROR :: Binance connection error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-01-19 08:38:34,734 WARNING :: Binance Websocket connection closed
+2022-01-19 08:38:37,566 INFO :: Binance connection successfully opened
+2022-01-19 21:35:24,023 ERROR :: Binance connection error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-01-19 21:35:24,024 WARNING :: Binance Websocket connection closed
+2022-01-19 21:35:37,031 INFO :: Binance connection successfully opened
+2022-01-19 23:08:49,686 ERROR :: Binance connection error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-01-19 23:08:49,687 WARNING :: Binance Websocket connection closed
+2022-01-19 23:08:51,708 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-19 23:08:51,708 WARNING :: Binance Websocket connection closed
+2022-01-19 23:08:53,711 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-19 23:08:53,711 WARNING :: Binance Websocket connection closed
+2022-01-19 23:09:00,052 INFO :: Binance connection successfully opened
+2022-01-20 08:41:59,468 ERROR :: Binance connection error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-01-20 08:41:59,469 WARNING :: Binance Websocket connection closed
+2022-01-20 08:42:02,305 INFO :: Binance connection successfully opened
+2022-01-20 17:23:24,096 ERROR :: Binance connection error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-01-20 17:23:24,100 WARNING :: Binance Websocket connection closed
+2022-01-20 17:23:26,113 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:23:26,114 WARNING :: Binance Websocket connection closed
+2022-01-20 17:23:28,123 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:23:28,123 WARNING :: Binance Websocket connection closed
+2022-01-20 17:23:30,126 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:23:30,127 WARNING :: Binance Websocket connection closed
+2022-01-20 17:23:32,134 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:23:32,135 WARNING :: Binance Websocket connection closed
+2022-01-20 17:23:34,145 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:23:34,147 WARNING :: Binance Websocket connection closed
+2022-01-20 17:23:36,160 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:23:36,160 WARNING :: Binance Websocket connection closed
+2022-01-20 17:23:38,170 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:23:38,171 WARNING :: Binance Websocket connection closed
+2022-01-20 17:23:40,184 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:23:40,184 WARNING :: Binance Websocket connection closed
+2022-01-20 17:23:42,191 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:23:42,192 WARNING :: Binance Websocket connection closed
+2022-01-20 17:23:44,203 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:23:44,204 WARNING :: Binance Websocket connection closed
+2022-01-20 17:23:46,220 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:23:46,221 WARNING :: Binance Websocket connection closed
+2022-01-20 17:23:48,228 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:23:48,229 WARNING :: Binance Websocket connection closed
+2022-01-20 17:23:50,233 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:23:50,235 WARNING :: Binance Websocket connection closed
+2022-01-20 17:23:52,246 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:23:52,247 WARNING :: Binance Websocket connection closed
+2022-01-20 17:23:54,261 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:23:54,261 WARNING :: Binance Websocket connection closed
+2022-01-20 17:23:56,276 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:23:56,277 WARNING :: Binance Websocket connection closed
+2022-01-20 17:23:58,287 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:23:58,289 WARNING :: Binance Websocket connection closed
+2022-01-20 17:24:00,294 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:24:00,295 WARNING :: Binance Websocket connection closed
+2022-01-20 17:24:02,304 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:24:02,304 WARNING :: Binance Websocket connection closed
+2022-01-20 17:24:04,315 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:24:04,315 WARNING :: Binance Websocket connection closed
+2022-01-20 17:24:06,326 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:24:06,326 WARNING :: Binance Websocket connection closed
+2022-01-20 17:24:08,340 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:24:08,341 WARNING :: Binance Websocket connection closed
+2022-01-20 17:24:10,355 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:24:10,356 WARNING :: Binance Websocket connection closed
+2022-01-20 17:24:12,361 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:24:12,361 WARNING :: Binance Websocket connection closed
+2022-01-20 17:24:14,370 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:24:14,370 WARNING :: Binance Websocket connection closed
+2022-01-20 17:24:16,383 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:24:16,383 WARNING :: Binance Websocket connection closed
+2022-01-20 17:24:18,398 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:24:18,398 WARNING :: Binance Websocket connection closed
+2022-01-20 17:24:20,405 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:24:20,406 WARNING :: Binance Websocket connection closed
+2022-01-20 17:24:22,420 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:24:22,420 WARNING :: Binance Websocket connection closed
+2022-01-20 17:24:24,434 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:24:24,434 WARNING :: Binance Websocket connection closed
+2022-01-20 17:24:26,447 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:24:26,448 WARNING :: Binance Websocket connection closed
+2022-01-20 17:24:28,463 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:24:28,463 WARNING :: Binance Websocket connection closed
+2022-01-20 17:24:30,474 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:24:30,474 WARNING :: Binance Websocket connection closed
+2022-01-20 17:24:32,485 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:24:32,485 WARNING :: Binance Websocket connection closed
+2022-01-20 17:24:34,498 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:24:34,498 WARNING :: Binance Websocket connection closed
+2022-01-20 17:24:36,499 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:24:36,500 WARNING :: Binance Websocket connection closed
+2022-01-20 17:24:38,510 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:24:38,511 WARNING :: Binance Websocket connection closed
+2022-01-20 17:24:40,523 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:24:40,524 WARNING :: Binance Websocket connection closed
+2022-01-20 17:24:42,538 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:24:42,538 WARNING :: Binance Websocket connection closed
+2022-01-20 17:24:44,545 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:24:44,546 WARNING :: Binance Websocket connection closed
+2022-01-20 17:24:46,555 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:24:46,556 WARNING :: Binance Websocket connection closed
+2022-01-20 17:24:48,572 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:24:48,572 WARNING :: Binance Websocket connection closed
+2022-01-20 17:24:50,586 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:24:50,586 WARNING :: Binance Websocket connection closed
+2022-01-20 17:24:52,593 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:24:52,594 WARNING :: Binance Websocket connection closed
+2022-01-20 17:24:54,603 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:24:54,603 WARNING :: Binance Websocket connection closed
+2022-01-20 17:24:56,616 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:24:56,616 WARNING :: Binance Websocket connection closed
+2022-01-20 17:24:58,621 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:24:58,622 WARNING :: Binance Websocket connection closed
+2022-01-20 17:25:00,630 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:25:00,631 WARNING :: Binance Websocket connection closed
+2022-01-20 17:25:02,644 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:25:02,645 WARNING :: Binance Websocket connection closed
+2022-01-20 17:25:04,655 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:25:04,656 WARNING :: Binance Websocket connection closed
+2022-01-20 17:25:06,672 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:25:06,672 WARNING :: Binance Websocket connection closed
+2022-01-20 17:25:08,686 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:25:08,686 WARNING :: Binance Websocket connection closed
+2022-01-20 17:25:10,696 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:25:10,697 WARNING :: Binance Websocket connection closed
+2022-01-20 17:25:12,702 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:25:12,702 WARNING :: Binance Websocket connection closed
+2022-01-20 17:25:14,718 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:25:14,718 WARNING :: Binance Websocket connection closed
+2022-01-20 17:25:16,728 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:25:16,729 WARNING :: Binance Websocket connection closed
+2022-01-20 17:25:18,744 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:25:18,745 WARNING :: Binance Websocket connection closed
+2022-01-20 17:25:20,762 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:25:20,762 WARNING :: Binance Websocket connection closed
+2022-01-20 17:25:22,776 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:25:22,776 WARNING :: Binance Websocket connection closed
+2022-01-20 17:25:24,786 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:25:24,787 WARNING :: Binance Websocket connection closed
+2022-01-20 17:25:26,802 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:25:26,803 WARNING :: Binance Websocket connection closed
+2022-01-20 17:25:28,816 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:25:28,816 WARNING :: Binance Websocket connection closed
+2022-01-20 17:25:30,826 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:25:30,826 WARNING :: Binance Websocket connection closed
+2022-01-20 17:25:32,829 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:25:32,830 WARNING :: Binance Websocket connection closed
+2022-01-20 17:25:34,842 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:25:34,842 WARNING :: Binance Websocket connection closed
+2022-01-20 17:25:36,853 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:25:36,854 WARNING :: Binance Websocket connection closed
+2022-01-20 17:25:38,867 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:25:38,868 WARNING :: Binance Websocket connection closed
+2022-01-20 17:25:40,877 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:25:40,878 WARNING :: Binance Websocket connection closed
+2022-01-20 17:25:42,893 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:25:42,894 WARNING :: Binance Websocket connection closed
+2022-01-20 17:25:44,907 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:25:44,908 WARNING :: Binance Websocket connection closed
+2022-01-20 17:25:46,916 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:25:46,921 WARNING :: Binance Websocket connection closed
+2022-01-20 17:25:48,930 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:25:48,931 WARNING :: Binance Websocket connection closed
+2022-01-20 17:25:50,942 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:25:50,942 WARNING :: Binance Websocket connection closed
+2022-01-20 17:25:52,949 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:25:52,950 WARNING :: Binance Websocket connection closed
+2022-01-20 17:25:54,965 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:25:54,965 WARNING :: Binance Websocket connection closed
+2022-01-20 17:25:56,976 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:25:56,976 WARNING :: Binance Websocket connection closed
+2022-01-20 17:25:58,986 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:25:58,986 WARNING :: Binance Websocket connection closed
+2022-01-20 17:26:00,991 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:26:00,992 WARNING :: Binance Websocket connection closed
+2022-01-20 17:26:02,994 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:26:02,994 WARNING :: Binance Websocket connection closed
+2022-01-20 17:26:05,001 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:26:05,001 WARNING :: Binance Websocket connection closed
+2022-01-20 17:26:07,015 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:26:07,016 WARNING :: Binance Websocket connection closed
+2022-01-20 17:26:09,026 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:26:09,027 WARNING :: Binance Websocket connection closed
+2022-01-20 17:26:11,040 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:26:11,040 WARNING :: Binance Websocket connection closed
+2022-01-20 17:26:13,054 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:26:13,054 WARNING :: Binance Websocket connection closed
+2022-01-20 17:26:15,067 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:26:15,068 WARNING :: Binance Websocket connection closed
+2022-01-20 17:26:17,069 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:26:17,070 WARNING :: Binance Websocket connection closed
+2022-01-20 17:26:19,085 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:26:19,086 WARNING :: Binance Websocket connection closed
+2022-01-20 17:26:21,095 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:26:21,096 WARNING :: Binance Websocket connection closed
+2022-01-20 17:26:23,110 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:26:23,110 WARNING :: Binance Websocket connection closed
+2022-01-20 17:26:25,120 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:26:25,121 WARNING :: Binance Websocket connection closed
+2022-01-20 17:26:27,131 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:26:27,132 WARNING :: Binance Websocket connection closed
+2022-01-20 17:26:29,145 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:26:29,146 WARNING :: Binance Websocket connection closed
+2022-01-20 17:26:31,148 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:26:31,148 WARNING :: Binance Websocket connection closed
+2022-01-20 17:26:33,162 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:26:33,162 WARNING :: Binance Websocket connection closed
+2022-01-20 17:26:35,175 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:26:35,176 WARNING :: Binance Websocket connection closed
+2022-01-20 17:26:37,187 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:26:37,188 WARNING :: Binance Websocket connection closed
+2022-01-20 17:26:39,196 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:26:39,197 WARNING :: Binance Websocket connection closed
+2022-01-20 17:26:41,200 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:26:41,201 WARNING :: Binance Websocket connection closed
+2022-01-20 17:26:43,210 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:26:43,211 WARNING :: Binance Websocket connection closed
+2022-01-20 17:26:45,220 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:26:45,221 WARNING :: Binance Websocket connection closed
+2022-01-20 17:26:47,224 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:26:47,225 WARNING :: Binance Websocket connection closed
+2022-01-20 17:26:49,231 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:26:49,232 WARNING :: Binance Websocket connection closed
+2022-01-20 17:26:51,243 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:26:51,244 WARNING :: Binance Websocket connection closed
+2022-01-20 17:26:53,254 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:26:53,255 WARNING :: Binance Websocket connection closed
+2022-01-20 17:26:55,266 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:26:55,266 WARNING :: Binance Websocket connection closed
+2022-01-20 17:26:57,278 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:26:57,278 WARNING :: Binance Websocket connection closed
+2022-01-20 17:26:59,291 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:26:59,291 WARNING :: Binance Websocket connection closed
+2022-01-20 17:27:01,308 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:27:01,308 WARNING :: Binance Websocket connection closed
+2022-01-20 17:27:03,310 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:27:03,310 WARNING :: Binance Websocket connection closed
+2022-01-20 17:27:05,323 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:27:05,324 WARNING :: Binance Websocket connection closed
+2022-01-20 17:27:07,330 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:27:07,331 WARNING :: Binance Websocket connection closed
+2022-01-20 17:27:09,335 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:27:09,336 WARNING :: Binance Websocket connection closed
+2022-01-20 17:27:11,343 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:27:11,344 WARNING :: Binance Websocket connection closed
+2022-01-20 17:27:13,359 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:27:13,360 WARNING :: Binance Websocket connection closed
+2022-01-20 17:27:15,371 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:27:15,373 WARNING :: Binance Websocket connection closed
+2022-01-20 17:27:17,385 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:27:17,386 WARNING :: Binance Websocket connection closed
+2022-01-20 17:27:19,395 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:27:19,396 WARNING :: Binance Websocket connection closed
+2022-01-20 17:27:21,412 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:27:21,413 WARNING :: Binance Websocket connection closed
+2022-01-20 17:27:23,429 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:27:23,430 WARNING :: Binance Websocket connection closed
+2022-01-20 17:27:25,445 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:27:25,446 WARNING :: Binance Websocket connection closed
+2022-01-20 17:27:27,455 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:27:27,456 WARNING :: Binance Websocket connection closed
+2022-01-20 17:27:29,465 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:27:29,466 WARNING :: Binance Websocket connection closed
+2022-01-20 17:27:31,467 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:27:31,468 WARNING :: Binance Websocket connection closed
+2022-01-20 17:27:33,483 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:27:33,483 WARNING :: Binance Websocket connection closed
+2022-01-20 17:27:35,497 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:27:35,497 WARNING :: Binance Websocket connection closed
+2022-01-20 17:27:37,506 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:27:37,506 WARNING :: Binance Websocket connection closed
+2022-01-20 17:27:39,519 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:27:39,520 WARNING :: Binance Websocket connection closed
+2022-01-20 17:27:41,531 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:27:41,532 WARNING :: Binance Websocket connection closed
+2022-01-20 17:27:43,544 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:27:43,545 WARNING :: Binance Websocket connection closed
+2022-01-20 17:27:45,562 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:27:45,562 WARNING :: Binance Websocket connection closed
+2022-01-20 17:27:47,576 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:27:47,576 WARNING :: Binance Websocket connection closed
+2022-01-20 17:27:49,581 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:27:49,582 WARNING :: Binance Websocket connection closed
+2022-01-20 17:27:51,588 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:27:51,588 WARNING :: Binance Websocket connection closed
+2022-01-20 17:27:53,603 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:27:53,603 WARNING :: Binance Websocket connection closed
+2022-01-20 17:27:55,615 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:27:55,616 WARNING :: Binance Websocket connection closed
+2022-01-20 17:27:57,627 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:27:57,627 WARNING :: Binance Websocket connection closed
+2022-01-20 17:27:59,637 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:27:59,638 WARNING :: Binance Websocket connection closed
+2022-01-20 17:28:01,649 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:28:01,649 WARNING :: Binance Websocket connection closed
+2022-01-20 17:28:03,657 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:28:03,658 WARNING :: Binance Websocket connection closed
+2022-01-20 17:28:05,674 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:28:05,674 WARNING :: Binance Websocket connection closed
+2022-01-20 17:28:07,687 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:28:07,688 WARNING :: Binance Websocket connection closed
+2022-01-20 17:28:09,705 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:28:09,705 WARNING :: Binance Websocket connection closed
+2022-01-20 17:28:11,708 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:28:11,708 WARNING :: Binance Websocket connection closed
+2022-01-20 17:28:13,724 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:28:13,724 WARNING :: Binance Websocket connection closed
+2022-01-20 17:28:15,738 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:28:15,738 WARNING :: Binance Websocket connection closed
+2022-01-20 17:28:17,751 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:28:17,751 WARNING :: Binance Websocket connection closed
+2022-01-20 17:28:19,768 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:28:19,769 WARNING :: Binance Websocket connection closed
+2022-01-20 17:28:21,779 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:28:21,779 WARNING :: Binance Websocket connection closed
+2022-01-20 17:28:23,796 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:28:23,796 WARNING :: Binance Websocket connection closed
+2022-01-20 17:28:25,812 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:28:25,812 WARNING :: Binance Websocket connection closed
+2022-01-20 17:28:27,824 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:28:27,824 WARNING :: Binance Websocket connection closed
+2022-01-20 17:28:29,838 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:28:29,838 WARNING :: Binance Websocket connection closed
+2022-01-20 17:28:31,849 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:28:31,849 WARNING :: Binance Websocket connection closed
+2022-01-20 17:28:33,866 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:28:33,866 WARNING :: Binance Websocket connection closed
+2022-01-20 17:28:35,876 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:28:35,877 WARNING :: Binance Websocket connection closed
+2022-01-20 17:28:37,886 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:28:37,886 WARNING :: Binance Websocket connection closed
+2022-01-20 17:28:39,896 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:28:39,896 WARNING :: Binance Websocket connection closed
+2022-01-20 17:28:41,909 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:28:41,910 WARNING :: Binance Websocket connection closed
+2022-01-20 17:28:43,923 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:28:43,924 WARNING :: Binance Websocket connection closed
+2022-01-20 17:28:45,940 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:28:45,941 WARNING :: Binance Websocket connection closed
+2022-01-20 17:28:47,956 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:28:47,956 WARNING :: Binance Websocket connection closed
+2022-01-20 17:28:49,967 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:28:49,967 WARNING :: Binance Websocket connection closed
+2022-01-20 17:28:51,974 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:28:51,975 WARNING :: Binance Websocket connection closed
+2022-01-20 17:28:53,978 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:28:53,978 WARNING :: Binance Websocket connection closed
+2022-01-20 17:28:55,994 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:28:55,994 WARNING :: Binance Websocket connection closed
+2022-01-20 17:28:58,006 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:28:58,006 WARNING :: Binance Websocket connection closed
+2022-01-20 17:29:00,021 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:29:00,021 WARNING :: Binance Websocket connection closed
+2022-01-20 17:29:02,027 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:29:02,028 WARNING :: Binance Websocket connection closed
+2022-01-20 17:29:04,037 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:29:04,038 WARNING :: Binance Websocket connection closed
+2022-01-20 17:29:06,053 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:29:06,054 WARNING :: Binance Websocket connection closed
+2022-01-20 17:29:08,065 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:29:08,066 WARNING :: Binance Websocket connection closed
+2022-01-20 17:29:10,080 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:29:10,081 WARNING :: Binance Websocket connection closed
+2022-01-20 17:29:12,090 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:29:12,090 WARNING :: Binance Websocket connection closed
+2022-01-20 17:29:14,106 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:29:14,106 WARNING :: Binance Websocket connection closed
+2022-01-20 17:29:16,122 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:29:16,122 WARNING :: Binance Websocket connection closed
+2022-01-20 17:29:18,131 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:29:18,132 WARNING :: Binance Websocket connection closed
+2022-01-20 17:29:20,148 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:29:20,149 WARNING :: Binance Websocket connection closed
+2022-01-20 17:29:22,156 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:29:22,157 WARNING :: Binance Websocket connection closed
+2022-01-20 17:29:24,171 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:29:24,171 WARNING :: Binance Websocket connection closed
+2022-01-20 17:29:26,184 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:29:26,184 WARNING :: Binance Websocket connection closed
+2022-01-20 17:29:28,194 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:29:28,195 WARNING :: Binance Websocket connection closed
+2022-01-20 17:29:30,211 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:29:30,211 WARNING :: Binance Websocket connection closed
+2022-01-20 17:29:32,228 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:29:32,228 WARNING :: Binance Websocket connection closed
+2022-01-20 17:29:34,234 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:29:34,234 WARNING :: Binance Websocket connection closed
+2022-01-20 17:29:36,237 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:29:36,238 WARNING :: Binance Websocket connection closed
+2022-01-20 17:29:38,251 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:29:38,252 WARNING :: Binance Websocket connection closed
+2022-01-20 17:29:40,269 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:29:40,270 WARNING :: Binance Websocket connection closed
+2022-01-20 17:29:42,283 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:29:42,283 WARNING :: Binance Websocket connection closed
+2022-01-20 17:29:44,295 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:29:44,296 WARNING :: Binance Websocket connection closed
+2022-01-20 17:29:46,307 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:29:46,308 WARNING :: Binance Websocket connection closed
+2022-01-20 17:29:48,321 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:29:48,322 WARNING :: Binance Websocket connection closed
+2022-01-20 17:29:50,331 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:29:50,332 WARNING :: Binance Websocket connection closed
+2022-01-20 17:29:52,338 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:29:52,339 WARNING :: Binance Websocket connection closed
+2022-01-20 17:29:54,350 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:29:54,351 WARNING :: Binance Websocket connection closed
+2022-01-20 17:29:56,361 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:29:56,362 WARNING :: Binance Websocket connection closed
+2022-01-20 17:29:58,363 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:29:58,363 WARNING :: Binance Websocket connection closed
+2022-01-20 17:30:00,376 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:30:00,377 WARNING :: Binance Websocket connection closed
+2022-01-20 17:30:02,384 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:30:02,385 WARNING :: Binance Websocket connection closed
+2022-01-20 17:30:04,395 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:30:04,396 WARNING :: Binance Websocket connection closed
+2022-01-20 17:30:06,413 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:30:06,413 WARNING :: Binance Websocket connection closed
+2022-01-20 17:30:08,422 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:30:08,423 WARNING :: Binance Websocket connection closed
+2022-01-20 17:30:10,433 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:30:10,433 WARNING :: Binance Websocket connection closed
+2022-01-20 17:30:12,448 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:30:12,449 WARNING :: Binance Websocket connection closed
+2022-01-20 17:30:14,464 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:30:14,465 WARNING :: Binance Websocket connection closed
+2022-01-20 17:30:16,476 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:30:16,476 WARNING :: Binance Websocket connection closed
+2022-01-20 17:30:18,486 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:30:18,487 WARNING :: Binance Websocket connection closed
+2022-01-20 17:30:20,496 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:30:20,496 WARNING :: Binance Websocket connection closed
+2022-01-20 17:30:22,497 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:30:22,498 WARNING :: Binance Websocket connection closed
+2022-01-20 17:30:24,510 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:30:24,511 WARNING :: Binance Websocket connection closed
+2022-01-20 17:30:26,519 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:30:26,519 WARNING :: Binance Websocket connection closed
+2022-01-20 17:30:28,525 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:30:28,525 WARNING :: Binance Websocket connection closed
+2022-01-20 17:30:30,537 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:30:30,538 WARNING :: Binance Websocket connection closed
+2022-01-20 17:30:32,538 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:30:32,539 WARNING :: Binance Websocket connection closed
+2022-01-20 17:30:34,541 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:30:34,542 WARNING :: Binance Websocket connection closed
+2022-01-20 17:30:36,557 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:30:36,558 WARNING :: Binance Websocket connection closed
+2022-01-20 17:30:38,568 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:30:38,568 WARNING :: Binance Websocket connection closed
+2022-01-20 17:30:40,579 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:30:40,580 WARNING :: Binance Websocket connection closed
+2022-01-20 17:30:42,595 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:30:42,595 WARNING :: Binance Websocket connection closed
+2022-01-20 17:30:44,610 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:30:44,610 WARNING :: Binance Websocket connection closed
+2022-01-20 17:30:46,620 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:30:46,621 WARNING :: Binance Websocket connection closed
+2022-01-20 17:30:48,627 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:30:48,627 WARNING :: Binance Websocket connection closed
+2022-01-20 17:30:50,640 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:30:50,640 WARNING :: Binance Websocket connection closed
+2022-01-20 17:30:52,650 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:30:52,650 WARNING :: Binance Websocket connection closed
+2022-01-20 17:30:54,668 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:30:54,668 WARNING :: Binance Websocket connection closed
+2022-01-20 17:30:56,682 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:30:56,682 WARNING :: Binance Websocket connection closed
+2022-01-20 17:30:58,693 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:30:58,694 WARNING :: Binance Websocket connection closed
+2022-01-20 17:31:00,707 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:31:00,707 WARNING :: Binance Websocket connection closed
+2022-01-20 17:31:02,715 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:31:02,717 WARNING :: Binance Websocket connection closed
+2022-01-20 17:31:04,729 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:31:04,730 WARNING :: Binance Websocket connection closed
+2022-01-20 17:31:06,739 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:31:06,740 WARNING :: Binance Websocket connection closed
+2022-01-20 17:31:08,749 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:31:08,750 WARNING :: Binance Websocket connection closed
+2022-01-20 17:31:10,764 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:31:10,765 WARNING :: Binance Websocket connection closed
+2022-01-20 17:31:12,775 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:31:12,775 WARNING :: Binance Websocket connection closed
+2022-01-20 17:31:14,792 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:31:14,792 WARNING :: Binance Websocket connection closed
+2022-01-20 17:31:16,806 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:31:16,807 WARNING :: Binance Websocket connection closed
+2022-01-20 17:31:18,820 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:31:18,821 WARNING :: Binance Websocket connection closed
+2022-01-20 17:31:20,836 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:31:20,836 WARNING :: Binance Websocket connection closed
+2022-01-20 17:31:22,852 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:31:22,852 WARNING :: Binance Websocket connection closed
+2022-01-20 17:31:24,856 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:31:24,856 WARNING :: Binance Websocket connection closed
+2022-01-20 17:31:26,868 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:31:26,868 WARNING :: Binance Websocket connection closed
+2022-01-20 17:31:28,881 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:31:28,882 WARNING :: Binance Websocket connection closed
+2022-01-20 17:31:30,892 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:31:30,892 WARNING :: Binance Websocket connection closed
+2022-01-20 17:31:32,901 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:31:32,901 WARNING :: Binance Websocket connection closed
+2022-01-20 17:31:34,910 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:31:34,911 WARNING :: Binance Websocket connection closed
+2022-01-20 17:31:36,912 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:31:36,912 WARNING :: Binance Websocket connection closed
+2022-01-20 17:31:38,925 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:31:38,926 WARNING :: Binance Websocket connection closed
+2022-01-20 17:31:40,941 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:31:40,942 WARNING :: Binance Websocket connection closed
+2022-01-20 17:31:42,954 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:31:42,954 WARNING :: Binance Websocket connection closed
+2022-01-20 17:31:44,966 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:31:44,966 WARNING :: Binance Websocket connection closed
+2022-01-20 17:31:46,980 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:31:46,982 WARNING :: Binance Websocket connection closed
+2022-01-20 17:31:48,995 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:31:48,996 WARNING :: Binance Websocket connection closed
+2022-01-20 17:31:51,005 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:31:51,005 WARNING :: Binance Websocket connection closed
+2022-01-20 17:31:53,016 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:31:53,017 WARNING :: Binance Websocket connection closed
+2022-01-20 17:31:55,023 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:31:55,024 WARNING :: Binance Websocket connection closed
+2022-01-20 17:31:57,038 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:31:57,039 WARNING :: Binance Websocket connection closed
+2022-01-20 17:31:59,051 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:31:59,052 WARNING :: Binance Websocket connection closed
+2022-01-20 17:32:01,057 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:32:01,058 WARNING :: Binance Websocket connection closed
+2022-01-20 17:32:03,065 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:32:03,065 WARNING :: Binance Websocket connection closed
+2022-01-20 17:32:05,081 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:32:05,081 WARNING :: Binance Websocket connection closed
+2022-01-20 17:32:07,097 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:32:07,097 WARNING :: Binance Websocket connection closed
+2022-01-20 17:32:09,110 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:32:09,111 WARNING :: Binance Websocket connection closed
+2022-01-20 17:32:11,122 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:32:11,122 WARNING :: Binance Websocket connection closed
+2022-01-20 17:32:13,132 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:32:13,132 WARNING :: Binance Websocket connection closed
+2022-01-20 17:32:15,146 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:32:15,146 WARNING :: Binance Websocket connection closed
+2022-01-20 17:32:17,154 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:32:17,155 WARNING :: Binance Websocket connection closed
+2022-01-20 17:32:19,161 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:32:19,161 WARNING :: Binance Websocket connection closed
+2022-01-20 17:32:21,163 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:32:21,164 WARNING :: Binance Websocket connection closed
+2022-01-20 17:32:23,175 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:32:23,175 WARNING :: Binance Websocket connection closed
+2022-01-20 17:32:25,189 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:32:25,190 WARNING :: Binance Websocket connection closed
+2022-01-20 17:32:27,202 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:32:27,203 WARNING :: Binance Websocket connection closed
+2022-01-20 17:32:29,206 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:32:29,206 WARNING :: Binance Websocket connection closed
+2022-01-20 17:32:31,218 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:32:31,218 WARNING :: Binance Websocket connection closed
+2022-01-20 17:32:33,227 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:32:33,227 WARNING :: Binance Websocket connection closed
+2022-01-20 17:32:35,243 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:32:35,243 WARNING :: Binance Websocket connection closed
+2022-01-20 17:32:37,248 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:32:37,248 WARNING :: Binance Websocket connection closed
+2022-01-20 17:32:39,253 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:32:39,254 WARNING :: Binance Websocket connection closed
+2022-01-20 17:32:41,262 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:32:41,262 WARNING :: Binance Websocket connection closed
+2022-01-20 17:32:43,276 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:32:43,276 WARNING :: Binance Websocket connection closed
+2022-01-20 17:32:45,287 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:32:45,287 WARNING :: Binance Websocket connection closed
+2022-01-20 17:32:47,297 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:32:47,297 WARNING :: Binance Websocket connection closed
+2022-01-20 17:32:49,313 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:32:49,313 WARNING :: Binance Websocket connection closed
+2022-01-20 17:32:51,325 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:32:51,325 WARNING :: Binance Websocket connection closed
+2022-01-20 17:32:53,340 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:32:53,340 WARNING :: Binance Websocket connection closed
+2022-01-20 17:32:55,356 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:32:55,356 WARNING :: Binance Websocket connection closed
+2022-01-20 17:32:57,373 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:32:57,373 WARNING :: Binance Websocket connection closed
+2022-01-20 17:32:59,387 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:32:59,387 WARNING :: Binance Websocket connection closed
+2022-01-20 17:33:01,402 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:33:01,403 WARNING :: Binance Websocket connection closed
+2022-01-20 17:33:03,406 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:33:03,407 WARNING :: Binance Websocket connection closed
+2022-01-20 17:33:05,418 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:33:05,419 WARNING :: Binance Websocket connection closed
+2022-01-20 17:33:07,422 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:33:07,423 WARNING :: Binance Websocket connection closed
+2022-01-20 17:33:09,428 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:33:09,428 WARNING :: Binance Websocket connection closed
+2022-01-20 17:33:11,444 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:33:11,444 WARNING :: Binance Websocket connection closed
+2022-01-20 17:33:13,457 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:33:13,457 WARNING :: Binance Websocket connection closed
+2022-01-20 17:33:15,470 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:33:15,471 WARNING :: Binance Websocket connection closed
+2022-01-20 17:33:17,482 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:33:17,484 WARNING :: Binance Websocket connection closed
+2022-01-20 17:33:19,496 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:33:19,497 WARNING :: Binance Websocket connection closed
+2022-01-20 17:33:21,499 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:33:21,499 WARNING :: Binance Websocket connection closed
+2022-01-20 17:33:23,515 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:33:23,515 WARNING :: Binance Websocket connection closed
+2022-01-20 17:33:25,529 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:33:25,529 WARNING :: Binance Websocket connection closed
+2022-01-20 17:33:27,533 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:33:27,533 WARNING :: Binance Websocket connection closed
+2022-01-20 17:33:29,535 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:33:29,535 WARNING :: Binance Websocket connection closed
+2022-01-20 17:33:31,548 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:33:31,548 WARNING :: Binance Websocket connection closed
+2022-01-20 17:33:33,561 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:33:33,561 WARNING :: Binance Websocket connection closed
+2022-01-20 17:33:35,578 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:33:35,578 WARNING :: Binance Websocket connection closed
+2022-01-20 17:33:37,595 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:33:37,595 WARNING :: Binance Websocket connection closed
+2022-01-20 17:33:39,603 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:33:39,603 WARNING :: Binance Websocket connection closed
+2022-01-20 17:33:41,615 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:33:41,615 WARNING :: Binance Websocket connection closed
+2022-01-20 17:33:43,626 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:33:43,626 WARNING :: Binance Websocket connection closed
+2022-01-20 17:33:45,641 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:33:45,641 WARNING :: Binance Websocket connection closed
+2022-01-20 17:33:47,655 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:33:47,655 WARNING :: Binance Websocket connection closed
+2022-01-20 17:33:49,671 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:33:49,671 WARNING :: Binance Websocket connection closed
+2022-01-20 17:33:51,685 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:33:51,685 WARNING :: Binance Websocket connection closed
+2022-01-20 17:33:53,699 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:33:53,699 WARNING :: Binance Websocket connection closed
+2022-01-20 17:33:55,708 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:33:55,708 WARNING :: Binance Websocket connection closed
+2022-01-20 17:33:57,709 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:33:57,710 WARNING :: Binance Websocket connection closed
+2022-01-20 17:33:59,721 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:33:59,721 WARNING :: Binance Websocket connection closed
+2022-01-20 17:34:01,730 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:34:01,730 WARNING :: Binance Websocket connection closed
+2022-01-20 17:34:03,743 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:34:03,744 WARNING :: Binance Websocket connection closed
+2022-01-20 17:34:05,756 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:34:05,757 WARNING :: Binance Websocket connection closed
+2022-01-20 17:34:07,760 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:34:07,761 WARNING :: Binance Websocket connection closed
+2022-01-20 17:34:09,772 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:34:09,772 WARNING :: Binance Websocket connection closed
+2022-01-20 17:34:11,781 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:34:11,782 WARNING :: Binance Websocket connection closed
+2022-01-20 17:34:13,791 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:34:13,791 WARNING :: Binance Websocket connection closed
+2022-01-20 17:34:15,804 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:34:15,805 WARNING :: Binance Websocket connection closed
+2022-01-20 17:34:17,821 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:34:17,821 WARNING :: Binance Websocket connection closed
+2022-01-20 17:34:19,823 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:34:19,824 WARNING :: Binance Websocket connection closed
+2022-01-20 17:34:21,837 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:34:21,837 WARNING :: Binance Websocket connection closed
+2022-01-20 17:34:23,850 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:34:23,851 WARNING :: Binance Websocket connection closed
+2022-01-20 17:34:25,866 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:34:25,868 WARNING :: Binance Websocket connection closed
+2022-01-20 17:34:27,876 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:34:27,877 WARNING :: Binance Websocket connection closed
+2022-01-20 17:34:29,882 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:34:29,883 WARNING :: Binance Websocket connection closed
+2022-01-20 17:34:31,896 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:34:31,897 WARNING :: Binance Websocket connection closed
+2022-01-20 17:34:33,913 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:34:33,913 WARNING :: Binance Websocket connection closed
+2022-01-20 17:34:35,928 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:34:35,929 WARNING :: Binance Websocket connection closed
+2022-01-20 17:34:37,938 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:34:37,939 WARNING :: Binance Websocket connection closed
+2022-01-20 17:34:39,951 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:34:39,952 WARNING :: Binance Websocket connection closed
+2022-01-20 17:34:41,961 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:34:41,961 WARNING :: Binance Websocket connection closed
+2022-01-20 17:34:43,975 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:34:43,975 WARNING :: Binance Websocket connection closed
+2022-01-20 17:34:45,988 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:34:45,988 WARNING :: Binance Websocket connection closed
+2022-01-20 17:34:47,998 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:34:47,999 WARNING :: Binance Websocket connection closed
+2022-01-20 17:34:50,006 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:34:50,007 WARNING :: Binance Websocket connection closed
+2022-01-20 17:34:52,022 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:34:52,023 WARNING :: Binance Websocket connection closed
+2022-01-20 17:34:54,028 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:34:54,029 WARNING :: Binance Websocket connection closed
+2022-01-20 17:34:56,044 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:34:56,045 WARNING :: Binance Websocket connection closed
+2022-01-20 17:34:58,056 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:34:58,057 WARNING :: Binance Websocket connection closed
+2022-01-20 17:35:00,073 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:35:00,074 WARNING :: Binance Websocket connection closed
+2022-01-20 17:35:02,089 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:35:02,089 WARNING :: Binance Websocket connection closed
+2022-01-20 17:35:04,106 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:35:04,106 WARNING :: Binance Websocket connection closed
+2022-01-20 17:35:06,111 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:35:06,111 WARNING :: Binance Websocket connection closed
+2022-01-20 17:35:08,123 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:35:08,123 WARNING :: Binance Websocket connection closed
+2022-01-20 17:35:10,139 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:35:10,139 WARNING :: Binance Websocket connection closed
+2022-01-20 17:35:12,145 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:35:12,146 WARNING :: Binance Websocket connection closed
+2022-01-20 17:35:14,158 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:35:14,159 WARNING :: Binance Websocket connection closed
+2022-01-20 17:35:16,168 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:35:16,169 WARNING :: Binance Websocket connection closed
+2022-01-20 17:35:18,184 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:35:18,185 WARNING :: Binance Websocket connection closed
+2022-01-20 17:35:20,195 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:35:20,196 WARNING :: Binance Websocket connection closed
+2022-01-20 17:35:22,208 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:35:22,209 WARNING :: Binance Websocket connection closed
+2022-01-20 17:35:24,220 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:35:24,221 WARNING :: Binance Websocket connection closed
+2022-01-20 17:35:26,230 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:35:26,231 WARNING :: Binance Websocket connection closed
+2022-01-20 17:35:28,237 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:35:28,237 WARNING :: Binance Websocket connection closed
+2022-01-20 17:35:30,251 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:35:30,252 WARNING :: Binance Websocket connection closed
+2022-01-20 17:35:32,268 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:35:32,269 WARNING :: Binance Websocket connection closed
+2022-01-20 17:35:34,280 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:35:34,281 WARNING :: Binance Websocket connection closed
+2022-01-20 17:35:36,288 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:35:36,289 WARNING :: Binance Websocket connection closed
+2022-01-20 17:35:38,295 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:35:38,295 WARNING :: Binance Websocket connection closed
+2022-01-20 17:35:40,311 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:35:40,312 WARNING :: Binance Websocket connection closed
+2022-01-20 17:35:42,327 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:35:42,327 WARNING :: Binance Websocket connection closed
+2022-01-20 17:35:44,339 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:35:44,339 WARNING :: Binance Websocket connection closed
+2022-01-20 17:35:46,348 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:35:46,349 WARNING :: Binance Websocket connection closed
+2022-01-20 17:35:48,351 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:35:48,352 WARNING :: Binance Websocket connection closed
+2022-01-20 17:35:50,363 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:35:50,364 WARNING :: Binance Websocket connection closed
+2022-01-20 17:35:52,376 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:35:52,377 WARNING :: Binance Websocket connection closed
+2022-01-20 17:35:54,378 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:35:54,379 WARNING :: Binance Websocket connection closed
+2022-01-20 17:35:56,381 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:35:56,381 WARNING :: Binance Websocket connection closed
+2022-01-20 17:35:58,388 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:35:58,389 WARNING :: Binance Websocket connection closed
+2022-01-20 17:36:00,390 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:36:00,391 WARNING :: Binance Websocket connection closed
+2022-01-20 17:36:02,399 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:36:02,400 WARNING :: Binance Websocket connection closed
+2022-01-20 17:36:04,416 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:36:04,417 WARNING :: Binance Websocket connection closed
+2022-01-20 17:36:06,424 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:36:06,424 WARNING :: Binance Websocket connection closed
+2022-01-20 17:36:08,437 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:36:08,438 WARNING :: Binance Websocket connection closed
+2022-01-20 17:36:10,452 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:36:10,453 WARNING :: Binance Websocket connection closed
+2022-01-20 17:36:12,464 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:36:12,465 WARNING :: Binance Websocket connection closed
+2022-01-20 17:36:14,472 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:36:14,473 WARNING :: Binance Websocket connection closed
+2022-01-20 17:36:16,487 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:36:16,487 WARNING :: Binance Websocket connection closed
+2022-01-20 17:36:18,497 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:36:18,497 WARNING :: Binance Websocket connection closed
+2022-01-20 17:36:20,510 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:36:20,511 WARNING :: Binance Websocket connection closed
+2022-01-20 17:36:22,520 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:36:22,521 WARNING :: Binance Websocket connection closed
+2022-01-20 17:36:24,527 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:36:24,528 WARNING :: Binance Websocket connection closed
+2022-01-20 17:36:26,543 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:36:26,544 WARNING :: Binance Websocket connection closed
+2022-01-20 17:36:28,555 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:36:28,556 WARNING :: Binance Websocket connection closed
+2022-01-20 17:36:30,557 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:36:30,558 WARNING :: Binance Websocket connection closed
+2022-01-20 17:36:32,572 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:36:32,572 WARNING :: Binance Websocket connection closed
+2022-01-20 17:36:34,583 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:36:34,583 WARNING :: Binance Websocket connection closed
+2022-01-20 17:36:36,594 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:36:36,595 WARNING :: Binance Websocket connection closed
+2022-01-20 17:36:38,608 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:36:38,608 WARNING :: Binance Websocket connection closed
+2022-01-20 17:36:40,617 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:36:40,617 WARNING :: Binance Websocket connection closed
+2022-01-20 17:36:42,631 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:36:42,631 WARNING :: Binance Websocket connection closed
+2022-01-20 17:36:44,643 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:36:44,643 WARNING :: Binance Websocket connection closed
+2022-01-20 17:36:46,657 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:36:46,657 WARNING :: Binance Websocket connection closed
+2022-01-20 17:36:48,669 ERROR :: Binance connection error: [Errno 11001] getaddrinfo failed
+2022-01-20 17:36:48,669 WARNING :: Binance Websocket connection closed
+2022-01-20 17:36:52,121 INFO :: Binance connection successfully opened
+2022-01-20 21:34:00,866 ERROR :: Binance connection error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-01-20 21:34:00,866 WARNING :: Binance Websocket connection closed
+2022-01-20 21:34:05,255 INFO :: Binance connection successfully opened
+2022-01-20 23:28:02,264 ERROR :: Binance connection error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-01-20 23:28:02,265 WARNING :: Binance Websocket connection closed
+2022-01-20 23:28:06,146 INFO :: Binance connection successfully opened
+2022-01-21 08:54:06,815 ERROR :: Binance connection error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-01-21 08:54:06,816 WARNING :: Binance Websocket connection closed
+2022-01-21 08:54:10,676 INFO :: Binance connection successfully opened
+2022-01-21 21:20:39,147 ERROR :: Binance connection error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-01-21 21:20:39,155 WARNING :: Binance Websocket connection closed
+2022-01-21 21:20:44,233 INFO :: Binance connection successfully opened
+2022-01-22 10:47:25,725 ERROR :: Binance connection error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2022-01-22 10:47:25,726 WARNING :: Binance Websocket connection closed
+2022-01-22 10:47:28,988 INFO :: Binance connection successfully opened
+2022-01-22 11:59:18,707 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-22 11:59:19,559 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-01-22 11:59:19,568 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-01-22 11:59:20,166 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v2/account?timestamp=1642874359566&signature=6bed8d19179a9a46f046360dec950b8ab5164d6a150f9acdf0f57987258f7a4f HTTP/1.1" 200 None
+2022-01-22 11:59:20,170 INFO :: Binance Futures Client Successfully Initialized
+2022-01-22 11:59:21,745 INFO :: Binance connection successfully opened
