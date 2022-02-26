@@ -1,8 +1,11 @@
+import os
 import tkinter as tk
 import logging
 from connectors.binance_futures import BinanceFuturesClient
 from interface.root_component import Root
 
+public_api_key = os.environ.get("PUBLIC_API_KEY")
+secret_api_key = os.environ.get("SECRET_API_KEY")
 
 # creating an instance of the logging object
 logger = logging.getLogger()
@@ -41,8 +44,7 @@ logger.addHandler(stream_handler)
 
 if __name__ == '__main__':
 
-    binance = BinanceFuturesClient("647ed4842976b15751bc0aa3924af0b108f303b4d6755702b872624c1e873dfd",
-                                   "630c6c0c121051317ce9094955c156ec678802553baafbc5fdc455a25a8bec95", True)
+    binance = BinanceFuturesClient(public_api_key, secret_api_key, True)
 
     # instantiate a tkinter (GUI) root window
     root = Root(binance)
